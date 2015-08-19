@@ -4,7 +4,7 @@ title:  "Switching from Sublime to Atom"
 date:   2015-08-19
 categories: Programming, Atom, Sublime
 ---
-Earlier this month I was talked into making the switch from my beloved sublime to [Atom][atom]. Ive gone through a few code editors over the past few years, including notepad++ (how and why did I do this??), coda (love but bulky), sublime (everything I want and ugly), and now atom (everything I want, more, and beautifull).
+Earlier this month I was talked into making the switch from my beloved sublime to [Atom][atom]. Ive gone through a few code editors over the past few years, including [Notepad++][notepad] (how and why did I do this??), [Coda 2][coda] (love but bulky), [Sublime 2][sublime] (everything I want and ugly), and now atom (everything I want, more, and beautifull).
 
 I think its fairly safe to say that Atom is my new favorite code and editor, and even markdown writer. It has everything I want, A beautiful interface, amazing package library, and great community support.
 
@@ -40,6 +40,9 @@ All in all Atom is a great code editor that provides all the functionality I nee
 
 
 [atom]:      http://jekyllrb.io
+[notepad]: https://notepad-plus-plus.org/
+[coda]: https://www.panic.com/coda/
+[sublime]: http://www.sublimetext.com/
 [electron]: https://github.com/atom/electron
 [chromium]: http://www.chromium.org/
 [atom-light]: https://github.com/atom/one-light-ui

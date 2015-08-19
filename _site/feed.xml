@@ -6,13 +6,13 @@
 </description>
     <link>chrisburgin95.github.io/</link>
     <atom:link href="chrisburgin95.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Aug 2015 23:58:43 -0400</pubDate>
-    <lastBuildDate>Tue, 18 Aug 2015 23:58:43 -0400</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2015 00:04:06 -0400</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2015 00:04:06 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Switching from Sublime to Atom</title>
-        <description>&lt;p&gt;Earlier this month I was talked into making the switch from my beloved sublime to &lt;a href=&quot;http://jekyllrb.io&quot;&gt;Atom&lt;/a&gt;. Ive gone through a few code editors over the past few years, including notepad++ (how and why did I do this??), coda (love but bulky), sublime (everything I want and ugly), and now atom (everything I want, more, and beautifull).&lt;/p&gt;
+        <description>&lt;p&gt;Earlier this month I was talked into making the switch from my beloved sublime to &lt;a href=&quot;http://jekyllrb.io&quot;&gt;Atom&lt;/a&gt;. Ive gone through a few code editors over the past few years, including &lt;a href=&quot;https://notepad-plus-plus.org/&quot;&gt;Notepad++&lt;/a&gt; (how and why did I do this??), &lt;a href=&quot;https://www.panic.com/coda/&quot;&gt;Coda 2&lt;/a&gt; (love but bulky), &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime 2&lt;/a&gt; (everything I want and ugly), and now atom (everything I want, more, and beautifull).&lt;/p&gt;
 
 &lt;p&gt;I think its fairly safe to say that Atom is my new favorite code and editor, and even markdown writer. It has everything I want, A beautiful interface, amazing package library, and great community support.&lt;/p&gt;
 
