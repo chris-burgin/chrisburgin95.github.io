@@ -1,0 +1,26 @@
+@include media-query($mobile) {
+    .slicknav_menu {
+        display: block;
+        a {
+            color: white;
+        }
+    }
+
+    .slicknav_nav {
+        a.page-link {
+            font-size: 25px;
+        }
+    }
+
+    .site-header {
+        display: none;
+    }
+}
+
+@include media-query($content-width) {
+    .post-list {
+        > li {
+            box-shadow: none;
+        }
+    }
+}

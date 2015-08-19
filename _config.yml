@@ -1,0 +1,15 @@
+# Site settings
+title: Chris Burgin
+email: chrisburgin95@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal site for chris burgin from louisville kentucky. Ministry, Web Development,
+  Lighting Design.
+baseurl: ""
+url: "http://chrisburgin.me"
+twitter_username: chrisburgin95
+github_username:  chrisburgin95
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Build settings
+markdown: kramdown
