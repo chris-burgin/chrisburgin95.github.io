@@ -6,8 +6,8 @@
 </description>
     <link>chrisburgin95.github.io/</link>
     <atom:link href="chrisburgin95.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2015 00:14:17 -0400</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2015 00:14:17 -0400</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2015 00:19:09 -0400</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2015 00:19:09 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -52,13 +52,13 @@
 
 </description>
         <pubDate>Wed, 19 Aug 2015 00:00:00 -0400</pubDate>
-        <link>chrisburgin95.github.io/programming,/atom,/sublime/2015/08/19/Sublime-to-Atom.html</link>
-        <guid isPermaLink="true">chrisburgin95.github.io/programming,/atom,/sublime/2015/08/19/Sublime-to-Atom.html</guid>
+        <link>chrisburgin95.github.io/programming/atom/sublime/2015/08/19/Sublime-to-Atom.html</link>
+        <guid isPermaLink="true">chrisburgin95.github.io/programming/atom/sublime/2015/08/19/Sublime-to-Atom.html</guid>
         
         
-        <category>programming,</category>
+        <category>programming</category>
         
-        <category>atom,</category>
+        <category>atom</category>
         
         <category>sublime</category>
         
