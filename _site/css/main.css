@@ -149,7 +149,7 @@ pre {
   .post-list h1 a:hover,
   .post-list h1 a:visited {
     color: #E65B5B; }
-  .post-list > li {
+  .post-list > li.single-post {
     padding: 50px;
     background-color: white;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.19);
