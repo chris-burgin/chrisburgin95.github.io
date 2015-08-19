@@ -2,7 +2,8 @@
 layout: post
 title:  "Switching from Sublime to Atom"
 date:   2015-08-19
-categories: Programming Atom Sublime
+categories: Programming
+tags: programming atom sublime
 ---
 Earlier this month I was talked into making the switch from my beloved sublime to [Atom][atom]. Ive gone through a few code editors over the past few years, including [Notepad++][notepad] (how and why did I do this??), [Coda 2][coda] (love but bulky), [Sublime 2][sublime] (everything I want and ugly), and now atom (everything I want, more, and beautifull).
 
