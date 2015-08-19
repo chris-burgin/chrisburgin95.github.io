@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chris Burgin</title>
+    <description>Personal site for chris burgin from louisville kentucky. Ministry, Web Development, Lighting Design.
+</description>
+    <link>chrisburgin95.github.io/</link>
+    <atom:link href="chrisburgin95.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 18 Aug 2015 23:58:43 -0400</pubDate>
+    <lastBuildDate>Tue, 18 Aug 2015 23:58:43 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Switching from Sublime to Atom</title>
+        <description>&lt;p&gt;Earlier this month I was talked into making the switch from my beloved sublime to &lt;a href=&quot;http://jekyllrb.io&quot;&gt;Atom&lt;/a&gt;. Ive gone through a few code editors over the past few years, including notepad++ (how and why did I do this??), coda (love but bulky), sublime (everything I want and ugly), and now atom (everything I want, more, and beautifull).&lt;/p&gt;
+
+&lt;p&gt;I think its fairly safe to say that Atom is my new favorite code and editor, and even markdown writer. It has everything I want, A beautiful interface, amazing package library, and great community support.&lt;/p&gt;
+
+&lt;h2 id=&quot;theme&quot;&gt;Theme&lt;/h2&gt;
+
+&lt;p&gt;Something I’ve always despised about the majority of themes for code editors is the lack of an amazing light theme. There is an abundance of dark themes for every editor and they all look great, but Im tired of using dark themes. It makes me tired and I just don’t feel inspired when using a dark theme. Atom solved this problem for me right from the start. Included is the amazing &lt;a href=&quot;https://github.com/atom/one-light-ui&quot;&gt;One Light&lt;/a&gt;, it looks great, easy to read, and the syntax color selection is perfect.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-packages&quot;&gt;Other Packages&lt;/h2&gt;
+
+&lt;p&gt;After I enabled this theme there were a few other minor modifications and packages I installed before feeling right at home in Atom.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/minimap&quot;&gt;Atom Mini Map&lt;/a&gt; - A great package that carries over the mini map functionality that so many people loved from sublime.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/linter&quot;&gt;Atom Linter&lt;/a&gt; - This is something I recently started using just before my switch from Sublime to Atom. Linters help you catch errors as well as keep your code uniform. &lt;a href=&quot;https://github.com/AtomLinter/linter-pyflakes&quot;&gt;PyFlakes&lt;/a&gt; and &lt;a href=&quot;https://atom.io/packages/linter-jshint&quot;&gt;JSHint&lt;/a&gt; are the main two language extensions I use with Atom Linter.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/markdown-writer&quot;&gt;Markdown Writer&lt;/a&gt; - Simple markdown editor with a live preview.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-perks&quot;&gt;Other Perks&lt;/h2&gt;
+&lt;p&gt;Additionally there are some perks to Atom that sold me on my decision.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Git Status&lt;/strong&gt; - Atom shows which files and lines have not been commited if you are working in a git repo. It gets as specific as showing which lines are &lt;font color=&quot;#1cdf53&quot;&gt; new &lt;/font&gt;, &lt;font color=&quot;#e39d34&quot;&gt; edited&lt;/font&gt; and even where lines have been &lt;font color=&quot;#ff1700&quot;&gt;removed&lt;/font&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Better Split Views&lt;/strong&gt; - Atoms Split view is worlds easier to use than sublime. Simply right click and choose how you would like to split the pane. Atom supports both horizontal and Vertically splitting.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Visual Package Manager&lt;/strong&gt; - Atom provides a visual, searchable packages manager while still allowing you to access commands through &lt;code&gt;cmd + shift + p&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Open Source&lt;/strong&gt; - Yes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Along with these perks I love that Atom is in active development. Sublime 3 has been in beta now for quite some time now and is still loaded with bugs, and while sublime 2 is very reliable its community is starting to shrink rapidly with introduction of more modern text editors.&lt;/p&gt;
+
+&lt;h2 id=&quot;downsides&quot;&gt;Downsides&lt;/h2&gt;
+&lt;p&gt;The only downside that I have experienced with Atom is that it runs on a &lt;a href=&quot;http://www.chromium.org/&quot;&gt;Chromium&lt;/a&gt; engine. If your on a older machine you will likely notice that atom is heavy and slow to open.&lt;/p&gt;
+
+&lt;p&gt;Atom is build on what is now known as &lt;a href=&quot;https://github.com/atom/electron&quot;&gt;Electron&lt;/a&gt;, formerly known as Atom Shell, this is a very cool piece of software that lets to write cross platform native applications using html, css, and javascript very easily, it works by running your application on a Chromium engine and provides a set of tools for interacting with your environment.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-it&quot;&gt;Get It&lt;/h2&gt;
+&lt;p&gt;All in all Atom is a great code editor that provides all the functionality I need while remaining visually appealing and having a great community to back it up. Its worth the switch for most people, and since it open source theres not much harm in just giving it a try if your on the border.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 19 Aug 2015 00:00:00 -0400</pubDate>
+        <link>chrisburgin95.github.io/programming,/atom,/sublime/2015/08/19/Sublime-to-Atom.html</link>
+        <guid isPermaLink="true">chrisburgin95.github.io/programming,/atom,/sublime/2015/08/19/Sublime-to-Atom.html</guid>
+        
+        
+        <category>programming,</category>
+        
+        <category>atom,</category>
+        
+        <category>sublime</category>
+        
+      </item>
+    
+  </channel>
+</rss>

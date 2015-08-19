@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="138px" height="159px" viewBox="0 0 138 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-640.000000, -1850.000000)">
+            <g id="Footer" sketch:type="MSLayerGroup" transform="translate(-7.000000, 1789.000000)">
+                <g id="Logo" transform="translate(605.428819, 19.500000)" sketch:type="MSShapeGroup">
+                    <ellipse id="Oval-10-Copy" cx="118.071181" cy="117.5" rx="118.071181" ry="117.5"></ellipse>
+                    <path d="M75.6350402,185.391717 C70.1951868,180.705565 63.5122858,132.1875 63.5122858,132.1875 C63.5122858,132.1875 60.5994012,123.356151 59.0355903,117.5 C57.4717794,111.643849 62.8930939,51.0555764 68.0403934,47.6348073 C73.1876929,44.2140382 118.356631,44.0625 118.356631,44.0625 C118.356631,44.0625 163.525569,44.2140382 168.672868,47.6348073 C173.820168,51.0555764 178.670582,111.643849 177.106771,117.5 C175.54296,123.356151 173.546426,132.1875 173.546426,132.1875 C173.546426,132.1875 166.518075,180.705565 161.078222,185.391717 C155.638368,190.077869 118.356631,190.9375 118.356631,190.9375 C118.356631,190.9375 81.0748936,190.077869 75.6350402,185.391717 Z" id="Path-1-Copy-8" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M59.0355903,117.5 L177.106765,117.5" id="Line-Copy-43" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M88.5533854,80.78125 L147.588976,80.78125" id="Line-Copy-42" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M90.0292752,73.4375 L146.113086,73.4375" id="Line-Copy-41" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M92.2431098,66.09375 L143.899251,66.09375" id="Line-Copy-40" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M98.8846137,58.75 L137.257747,58.75" id="Line-Copy-39" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M90.0292752,88.125 L146.113086,88.125" id="Line-Copy-38" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M92.2431098,95.46875 L143.899251,95.46875" id="Line-Copy-37" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M98.8846137,102.8125 L137.257747,102.8125" id="Line-Copy-36" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M63.4632596,132.1875 L172.679102,132.1875" id="Line-Copy-35" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M61.8938042,69.8649444 L44.2766926,73.4375 L44.2766926,106.576682 L58.2976453,112.185761" id="Path-170-Copy-6" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M107.002007,190.9375 L107.002007,195.169469 C107.002007,195.169469 107.002007,198.28125 118.071181,198.28125 C129.140354,198.28125 129.140354,195.169469 129.140354,195.169469 L129.140354,190.9375" id="Path-170-Copy-5" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Path-170-Copy-+-Path-170-Copy-3-+-Line-Copy" transform="translate(103.312283, 146.875000)" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14.7588979,0 C14.7588979,0 3.46282259e-07,0 3.46282257e-07,14.6875 C3.46282256e-07,29.375 14.7588979,29.375 14.7588979,29.375" id="Path-170-Copy"></path>
+                        <path d="M14.7588979,0 C14.7588979,0 29.5177955,0 29.5177955,14.6875 C29.5177955,29.375 14.7588979,29.375 14.7588979,29.375 L14.7588979,0 Z" id="Path-170-Copy-3"></path>
+                        <path d="M29.5177951,14.6875 L14.7588976,14.6875" id="Line"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

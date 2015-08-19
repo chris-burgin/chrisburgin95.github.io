@@ -4,7 +4,7 @@ title:  "Switching from Sublime to Atom"
 date:   2015-08-19
 categories: Programming, Atom, Sublime
 ---
-Ealier this month I was talked into making the switch from my beloved sublime to [Atom][atom]. Ive gone through a few code editors over the past few years, including notepad++ (how and why did I do this??), coda (love but bulky), sublime (everything I want and ugly), and now atom (everything I want, more, and beautifull).
+Earlier this month I was talked into making the switch from my beloved sublime to [Atom][atom]. Ive gone through a few code editors over the past few years, including notepad++ (how and why did I do this??), coda (love but bulky), sublime (everything I want and ugly), and now atom (everything I want, more, and beautifull).
 
 I think its fairly safe to say that Atom is my new favorite code and editor, and even markdown writer. It has everything I want, A beautiful interface, amazing package library, and great community support.
 
@@ -17,9 +17,7 @@ Something I've always despised about the majority of themes for code editors is 
 After I enabled this theme there were a few other minor modifications and packages I installed before feeling right at home in Atom.
 
 - [Atom Mini Map][atom-mini-map] - A great package that carries over the mini map functionality that so many people loved from sublime.
-- [Linter][atom-linter] - This is something I recently started using just before my switch from Sublime to Atom. Linters help you catch errors as well as keep your code uniform.
-    - [PyFlakes][pyflake] - Python Linter, uses pep8.
-    - [JSHint][jshint] - Javascript Linter, loved by many.
+- [Atom Linter][atom-linter] - This is something I recently started using just before my switch from Sublime to Atom. Linters help you catch errors as well as keep your code uniform. [PyFlakes][pyflake] and [JSHint][jshint] are the main two language extensions I use with Atom Linter.
 - [Markdown Writer][markdown] - Simple markdown editor with a live preview.
 
 ## Other Perks
@@ -30,6 +28,7 @@ Additionally there are some perks to Atom that sold me on my decision.
 - **Visual Package Manager** - Atom provides a visual, searchable packages manager while still allowing you to access commands through ```cmd + shift + p```.
 - **Open Source** - Yes.
 
+Along with these perks I love that Atom is in active development. Sublime 3 has been in beta now for quite some time now and is still loaded with bugs, and while sublime 2 is very reliable its community is starting to shrink rapidly with introduction of more modern text editors.
 
 ## Downsides
 The only downside that I have experienced with Atom is that it runs on a [Chromium][chromium] engine. If your on a older machine you will likely notice that atom is heavy and slow to open.
@@ -37,11 +36,7 @@ The only downside that I have experienced with Atom is that it runs on a [Chromi
 Atom is build on what is now known as [Electron][electron], formerly known as Atom Shell, this is a very cool piece of software that lets to write cross platform native applications using html, css, and javascript very easily, it works by running your application on a Chromium engine and provides a set of tools for interacting with your environment.  
 
 ## Get It
-All in all Atom is a great code editor that provides all the functionality I need while remaining visually appealing and having a great community to back it up. Its worth the switch for most people, and since it free theres not much harm in just giving it a try if your on the fence.
-
-
-
-
+All in all Atom is a great code editor that provides all the functionality I need while remaining visually appealing and having a great community to back it up. Its worth the switch for most people, and since it open source theres not much harm in just giving it a try if your on the border.
 
 
 [atom]:      http://jekyllrb.io
