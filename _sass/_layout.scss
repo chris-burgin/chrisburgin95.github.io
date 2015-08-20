@@ -122,19 +122,6 @@
     margin-bottom: 10px;
 }
 
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-}
-
 .pagination {
     display: flex;
     justify-content: space-between;
@@ -159,11 +146,6 @@
     .post-title {
         color: $brand-color;
     }
-
-    .post-header {
-        margin-bottom: 0;
-    }
-
 }
 
 /* Archive */

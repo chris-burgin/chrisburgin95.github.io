@@ -28,8 +28,6 @@ $site-width:       1200px;
 
 $mobile:          1000px;
 
-
-
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -42,8 +40,6 @@ $mobile:          1000px;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

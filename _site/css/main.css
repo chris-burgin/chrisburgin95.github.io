@@ -1,15 +1,11 @@
-/**
- * Reset some basic elements
- */
+/* Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
-/**
- * Basic styling
- */
+/* Basic styling */
 body {
   font-family: "Noto Sans";
   font-size: 16px;
@@ -18,18 +14,14 @@ body {
   background-color: #F4F4F4;
   -webkit-text-size-adjust: 100%; }
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
+/* Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
   margin-bottom: 25px; }
 
-/**
- * Headings
- */
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald";
   font-weight: normal; }
@@ -178,16 +170,6 @@ pre {
   padding-left: 4px;
   margin-bottom: 10px; }
 
-.post-link {
-  display: block;
-  font-size: 24px; }
-
-.post-header {
-  margin-bottom: 50px; }
-
-.post-content {
-  margin-bottom: 50px; }
-
 .pagination {
   display: flex;
   justify-content: space-between; }
@@ -204,8 +186,6 @@ pre {
     margin-bottom: 0; }
   .post .post-title {
     color: #E65B5B; }
-  .post .post-header {
-    margin-bottom: 0; }
 
 /* Archive */
 .archive .post-link {
