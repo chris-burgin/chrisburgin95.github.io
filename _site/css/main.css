@@ -115,13 +115,13 @@ pre {
   .site-header .site-nav {
     display: flex;
     align-items: center;
-    font-size: 32px; }
+    font-size: 25px; }
     .site-header .site-nav .page-link {
       color: white; }
       .site-header .site-nav .page-link:not(:last-child) {
         margin-right: 20px; }
     .site-header .site-nav div {
-      margin-left: 30px;
+      margin-left: 20px;
       font-size: 25px; }
 
 /* Site Footer */
@@ -382,7 +382,10 @@ pre {
   .site-header {
     display: none; } }
 @media screen and (max-width: 800px) {
-  .post-list > li {
+  ul.post-list > li.single-post {
     box-shadow: none; }
-  .post-list h1 a {
-    font-size: 40px; } }
+  ul.post-list h1 a.post-link {
+    font-size: 40px; }
+
+  .page-content .post {
+    box-shadow: none; } }

@@ -26,13 +26,17 @@
 }
 
 @include media-query($content-width) {
-    .post-list {
-        > li {
+    ul.post-list {
+        > li.single-post {
             box-shadow: none;
         }
 
-        h1 a {
+        h1 a.post-link {
             font-size: 40px;
         }
+    }
+
+    .page-content .post {
+        box-shadow: none;
     }
 }
