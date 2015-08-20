@@ -90,9 +90,8 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-
     h1 a {
-        font-size: 40px;
+        font-size: 60px;
     }
     h1 a:hover,
     h1 a:visited{
@@ -119,6 +118,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    padding-left: 4px;
 }
 
 .post-link {
@@ -138,18 +138,6 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-    }
-
-    h3 {
-        font-size: 26px;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
 }
 
 .pagination {
@@ -171,7 +159,20 @@
 
     .post-title {
             color: $brand-color !important;
-        }
+    }
+
+}
+
+/* Archive */
+.archive {
+
+    .post-link {
+        font-size: 50px;
+    }
+
+    ul.post-meta {
+        margin-bottom: 0;
+    }
 }
 
 /* Slicknav */

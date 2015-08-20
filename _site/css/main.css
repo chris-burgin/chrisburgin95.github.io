@@ -32,8 +32,20 @@ ul, ol, dl, figure,
  */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald";
-  text-transform: uppercase;
   font-weight: normal; }
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 40px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 26px; }
 
 a {
   color: #E65B5B;
@@ -145,7 +157,7 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list h1 a {
-    font-size: 40px; }
+    font-size: 60px; }
   .post-list h1 a:hover,
   .post-list h1 a:visited {
     color: #E65B5B; }
@@ -162,7 +174,8 @@ pre {
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  color: #828282;
+  padding-left: 4px; }
 
 .post-link {
   display: block;
@@ -178,12 +191,6 @@ pre {
 
 .post-content {
   margin-bottom: 50px; }
-  .post-content h2 {
-    font-size: 32px; }
-  .post-content h3 {
-    font-size: 26px; }
-  .post-content h4 {
-    font-size: 20px; }
 
 .pagination {
   display: flex;
@@ -199,6 +206,12 @@ pre {
   margin-bottom: 50px; }
   .post .post-title {
     color: #E65B5B !important; }
+
+/* Archive */
+.archive .post-link {
+  font-size: 50px; }
+.archive ul.post-meta {
+  margin-bottom: 0; }
 
 /* Slicknav */
 .slicknav_menu {

@@ -39,8 +39,24 @@ ul, ol, dl, figure,
  */
 h1, h2, h3, h4, h5, h6 {
     font-family: $header-font;
-    text-transform: uppercase;
     font-weight: normal;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 26px;
 }
 
 a {
