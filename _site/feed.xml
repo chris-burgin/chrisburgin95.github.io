@@ -6,9 +6,66 @@
 </description>
     <link>chrisburgin.me/</link>
     <atom:link href="chrisburgin.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2015 22:15:46 -0400</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2015 22:15:46 -0400</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2015 22:55:12 -0400</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2015 22:55:12 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Compression</title>
+        <description>&lt;p&gt;Lately I found myself using several different types of compression on a regular basis. This is a quick documentation of the 3 types of compression I find myself using and what my standard uses are.&lt;/p&gt;
+
+&lt;h3 id=&quot;zip&quot;&gt;ZIP&lt;/h3&gt;
+&lt;p&gt;Standard ZIP Compression is fast but provides minimum compression. I find this useful when I need to zip a folder to move from one server to another when the time it takes for a high level compression isn’t worth it.&lt;/p&gt;
+
+&lt;p&gt;Zipping a folder to move with secure copy takes much less time than trying to use recursive secure copy on an entire folder.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;zip -r foldername.zip /file/or/folder/to/compress&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To uncompress:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;zip unzip foldername.zip /extract/here&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;tar-gz&quot;&gt;TAR GZ&lt;/h3&gt;
+&lt;p&gt;This form of TAR compression provides a decent compression level and isn’t to processor intensive. I find this compression works well for when I need to download a file from a server.&lt;/p&gt;
+
+&lt;p&gt;The transfer speed from server to server can peak out at 20mb/s, which makes it easy to transfer large files. But when downloading files to my local machine speeds normally only reach 3 or 4mb/s. Even with this slower speed it is still beneficial to use a slightly lower level compression that runs quicker.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;tar -cvzf archive.tar.gz /file/or/folder/to/compress&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To uncompress:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;tar -zxvf archive.tar.bz2 /extract/here&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Another nice feature of TAR.GZ is that you can specify the compression level. The default of which is -6 with -9 being the maximum.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ GZIP&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;-9 tar -cvzf archive.tar.gz /file/or/folder/to/compress&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;tar-bz2&quot;&gt;TAR BZ2&lt;/h3&gt;
+&lt;p&gt;BZ2 provides the best compression level of the formats listed. The downside being that BZ2 is processor intensive. I use this compression the most when creating long term backups. For me the time is worth the extra space I gain on my external backup drive. As mentioned above you can also modify the compression level.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;tar -jcvf archive.tar.bz2 /file/or/folder/to/compress&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To uncompress:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;tar -jxvf archive.tar.bz2 /extract/here&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 20 Aug 2015 00:00:00 -0400</pubDate>
+        <link>chrisburgin.me/programming/2015/08/20/Compression.html</link>
+        <guid isPermaLink="true">chrisburgin.me/programming/2015/08/20/Compression.html</guid>
+        
+        <category>compression</category>
+        
+        <category>zip</category>
+        
+        <category>gz</category>
+        
+        <category>bz2</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       <item>
         <title>Switching from Sublime to Atom</title>
