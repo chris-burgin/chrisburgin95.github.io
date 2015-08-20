@@ -175,7 +175,8 @@ pre {
 .post-meta {
   font-size: 14px;
   color: #828282;
-  padding-left: 4px; }
+  padding-left: 4px;
+  margin-bottom: 10px; }
 
 .post-link {
   display: block;
@@ -368,9 +369,15 @@ pre {
     display: block; }
     .slicknav_menu a {
       color: white; }
+    .slicknav_menu .slicknav_label {
+      background-image: url(http://chrisburgin.me/static/img/logo.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 40px; }
 
   .slicknav_nav a.page-link {
-    font-size: 25px; }
+    font-size: 25px;
+    font-family: Oswald; }
 
   .site-header {
     display: none; } }
