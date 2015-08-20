@@ -376,4 +376,6 @@ pre {
     display: none; } }
 @media screen and (max-width: 800px) {
   .post-list > li {
-    box-shadow: none; } }
+    box-shadow: none; }
+  .post-list h1 a {
+    font-size: 60px; } }
