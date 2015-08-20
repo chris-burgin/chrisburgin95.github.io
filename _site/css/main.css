@@ -369,6 +369,11 @@ pre {
     display: block; }
     .slicknav_menu a {
       color: white; }
+    .slicknav_menu .slicknav_label {
+      background-image: url(http://chrisburgin.me/static/img/logo.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px; }
 
   .slicknav_nav a.page-link {
     font-size: 25px;
