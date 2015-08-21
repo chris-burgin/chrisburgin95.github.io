@@ -6,9 +6,62 @@
 </description>
     <link>chrisburgin.me/</link>
     <atom:link href="chrisburgin.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2015 23:45:46 -0400</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2015 23:45:46 -0400</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2015 17:48:30 -0400</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2015 17:48:30 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Remote Garage Door Opener</title>
+        <description>&lt;p&gt;For the past 2 months I have been having a great time working on my Saturday project. A remote Garage Door Opener that runs on a raspberry pi. Ive gone beyond just a simple php script that lets you open and close your door.&lt;/p&gt;
+
+&lt;p&gt;This application, which for the time I am calling Pi Garage (it needs a new name desperatly), has a full user account system with differing level of permissions.&lt;/p&gt;
+
+&lt;h4 id=&quot;pi-garage-on-githubhttpsgithubcomchrisburgin95pigarage&quot;&gt;&lt;a href=&quot;https://github.com/chrisburgin95/pigarage&quot;&gt;Pi Garage on Github&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h3 id=&quot;types-of-accounts&quot;&gt;Types Of Accounts&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Admin User: This user can add, remove, and edit existing users as well as open and close the garage door.&lt;/li&gt;
+  &lt;li&gt;Normal User: This user can only open or close the garage door.&lt;/li&gt;
+  &lt;li&gt;Temporary Users: This user expires after a set amount of time and can only open and close the garage door.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;let-me-explain&quot;&gt;Let Me Explain&lt;/h3&gt;
+&lt;p&gt;The main concept behind this application is not to replace the classic garage door opener but to provide more functionality while not cluttering the basic idea. To move a large piece of metal out of the way remotely from anywhere in the world.&lt;/p&gt;
+
+&lt;p&gt;This could be useful for families who have more members than garage door openers or when away on vacation. You can now give your house sitter temporary access to your house that will automatically expire.&lt;/p&gt;
+
+&lt;p&gt;More detailed examples can be found on my github detailing the functionality of this device, including security. I wont go into to much detail in this post. In following post I will talk about the process as well go into more detail on installation. All of which is still covered on github.&lt;/p&gt;
+
+&lt;h3 id=&quot;future-expansion&quot;&gt;Future Expansion&lt;/h3&gt;
+&lt;p&gt;Right now this is just the base application, the Idea is to expand in the near future with some of the following features that should take little time now that the base application is complete.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Log: Track when the door has been opened and closed as well as when users have been created, removed or modified.&lt;/li&gt;
+  &lt;li&gt;Camera: A camera will show the current status of the door, as either open or close. This will allow for the users to access their garage door remotely visually check the status of the door.&lt;/li&gt;
+  &lt;li&gt;Magnetic Sensors: Another build in optional feature that can read out if the door is open or closed. This is a cheaper solution to the camera but the user will not be able to check for obstructing objects.&lt;/li&gt;
+  &lt;li&gt;More Advanced User Permissions: Set strict times that the door can be used between.&lt;/li&gt;
+  &lt;li&gt;Notification System: Be notified when the door has been opened or closed from the application.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gallary&quot;&gt;Gallary&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/7wxUytC.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/D7vS2HI.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/rjRuYSy.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Aug 2015 00:00:00 -0400</pubDate>
+        <link>chrisburgin.me/programming/2015/08/21/Remote-Garage-Door-Opener.html</link>
+        <guid isPermaLink="true">chrisburgin.me/programming/2015/08/21/Remote-Garage-Door-Opener.html</guid>
+        
+        <category>pi</category>
+        
+        <category>garage</category>
+        
+        <category>python</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       <item>
         <title>Compression</title>
