@@ -10,7 +10,8 @@ For the past 2 months I have been having a great time working on my Saturday pro
 
 This application, which for the time I am calling Pi Garage (it needs a new name desperatly), has a full user account system with differing level of permissions.
 
-#### [Pi Garage on Github](https://github.com/chrisburgin95/pigarage)
+#### [View on Github](https://github.com/chrisburgin95/pigarage)
+ *Checkout the readme and wiki on github for more information. There is fairly extensive documentation*
 
 ### Types Of Accounts
 - Admin User: This user can add, remove, and edit existing users as well as open and close the garage door.
@@ -31,8 +32,8 @@ Right now this is just the base application, the Idea is to expand in the near f
 - Log: Track when the door has been opened and closed as well as when users have been created, removed or modified.
 - Camera: A camera will show the current status of the door, as either open or close. This will allow for the users to access their garage door remotely visually check the status of the door.
 - Magnetic Sensors: Another build in optional feature that can read out if the door is open or closed. This is a cheaper solution to the camera but the user will not be able to check for obstructing objects.
-- More Advanced User Permissions: Set strict times that the door can be used between.
-- Notification System: Be notified when the door has been opened or closed from the application.
+- More Advanced User Permissions: Set strict times that the door can be used for each user.
+- Notification System: Be notified when the door has been opened or closed by another user from the application.
 
 ### Gallary
 ![](http://i.imgur.com/7wxUytC.png)
