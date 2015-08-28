@@ -153,6 +153,8 @@ pre {
   .post-list h1 a:hover,
   .post-list h1 a:visited {
     color: #E65B5B; }
+  .post-list .post-content ul {
+    margin-left: 30px; }
   .post-list > li.single-post {
     padding: 50px;
     background-color: white;
