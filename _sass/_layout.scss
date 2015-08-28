@@ -125,6 +125,10 @@
     }
 }
 
+.share {
+        padding-left: 4px;
+}
+
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
@@ -160,6 +164,14 @@
     img {
         max-width: 100%;
     }
+
+    .post-content {
+        ul {
+            padding-left: 30px;
+        }
+    }
+
+
 }
 
 /* Archive */

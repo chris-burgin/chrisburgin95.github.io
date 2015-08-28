@@ -168,6 +168,9 @@ pre {
     .post-list ul.post-meta > li:not(:first-child) {
       padding-left: 10px; }
 
+.share {
+  padding-left: 4px; }
+
 .post-meta {
   font-size: 14px;
   color: #828282;
@@ -192,6 +195,8 @@ pre {
     color: #E65B5B; }
   .post img {
     max-width: 100%; }
+  .post .post-content ul {
+    padding-left: 30px; }
 
 /* Archive */
 .archive .post-link {
