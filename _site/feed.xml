@@ -6,9 +6,56 @@
 </description>
     <link>chrisburgin.me/</link>
     <atom:link href="chrisburgin.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Aug 2015 22:26:09 -0400</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2015 22:26:09 -0400</lastBuildDate>
+    <pubDate>Thu, 27 Aug 2015 23:23:28 -0400</pubDate>
+    <lastBuildDate>Thu, 27 Aug 2015 23:23:28 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Gatehouse Update 0.2.0</title>
+        <description>&lt;p&gt;Recently working with &lt;a href=&quot;https://twitter.com/kurtrank&quot;&gt;Kurt Rank&lt;/a&gt; we have decided on the name Gatehouse for this project. We think it clearly describes the project and just sounds cool!&lt;/p&gt;
+
+&lt;h4 id=&quot;view-on-githubhttpsgithubcomchrisburgin95pigarage&quot;&gt;&lt;a href=&quot;https://github.com/chrisburgin95/pigarage&quot;&gt;View on Github&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Checkout the readme and wiki on github for more information. There is fairly extensive documentation&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-in-version-020&quot;&gt;Whats in version 0.2.0?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Updated Code Comments&lt;/li&gt;
+  &lt;li&gt;Styling (name, font, logo)&lt;/li&gt;
+  &lt;li&gt;Small Visual Bug (&lt;a href=&quot;https://github.com/chrisburgin95/pigarage/issues/4&quot;&gt;#4&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Setup Script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;whats-next&quot;&gt;Whats Next?&lt;/h3&gt;
+&lt;p&gt;Next on the list to tackle is an optional auto update feature. You can keep an eye on this feature &lt;a href=&quot;https://github.com/chrisburgin95/pigarage/issues/5&quot;&gt;here&lt;/a&gt; on github.&lt;/p&gt;
+
+&lt;p&gt;Along with this we are working on an stand alone website covering basic information about Gatecontrol. Ill have a post covering this shortly.&lt;/p&gt;
+
+&lt;h3 id=&quot;desktop-version&quot;&gt;Desktop version&lt;/h3&gt;
+&lt;p&gt;This isn’t a new feature but we just wanted to highlight that Gatecontrol is full responsive and will work on all modern browsers. Lets skip IE 8 and below for now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/QJdQLeQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mobile-gallary&quot;&gt;Mobile Gallary&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/aTWWiCG.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://i.imgur.com/pPlYeCJ.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://i.imgur.com/7A8q6fe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Aug 2015 00:00:00 -0400</pubDate>
+        <link>chrisburgin.me/programming/2015/08/27/Gatehouse-Update.html</link>
+        <guid isPermaLink="true">chrisburgin.me/programming/2015/08/27/Gatehouse-Update.html</guid>
+        
+        <category>pi</category>
+        
+        <category>gatehouse</category>
+        
+        <category>update</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       <item>
         <title>Remote Garage Door Opener</title>
