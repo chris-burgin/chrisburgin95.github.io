@@ -10,7 +10,7 @@ For the past 2 months I have been having a great time working on my Saturday pro
 
 This application, which for the time I am calling Pi Garage (it needs a new name desperatly), has a full user account system with differing level of permissions.
 
-#### [View on Github](https://github.com/chrisburgin95/pigarage)
+#### [View on Github](https://github.com/chrisburgin95/Gatecontrol)
  *Checkout the readme and wiki on github for more information. There is fairly extensive documentation*
 
 ### Types Of Accounts

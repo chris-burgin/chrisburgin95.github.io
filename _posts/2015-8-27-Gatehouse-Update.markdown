@@ -7,19 +7,19 @@ tags: pi gatehouse update
 ---
 Recently working with [Kurt Rank](https://twitter.com/kurtrank) we have decided on the name Gatehouse for this project. We think it clearly describes the project and just sounds plain cool!
 
-#### [View on Github](https://github.com/chrisburgin95/pigarage)
+#### [View on Github](https://github.com/chrisburgin95/Gatecontrol)
  *Checkout the readme and wiki on github for more information. There is fairly extensive documentation*
 
 ### Whats in version 0.2.0?
 - Updated Code Comments
 - Styling (name, font, logo)
-- Small Visual Bug ([#4](https://github.com/chrisburgin95/pigarage/issues/4))
+- Small Visual Bug ([#4](https://github.com/chrisburgin95/Gatecontrol/issues/4))
 - Setup Script
 
 
 
 ### Whats Next?
-Next on the list to tackle is an optional auto update feature. You can keep an eye on this feature [here](https://github.com/chrisburgin95/pigarage/issues/5) on github.
+Next on the list to tackle is an optional auto update feature. You can keep an eye on this feature [here](https://github.com/chrisburgin95/Gatecontrol/issues/5) on github.
 
 Along with this we are working on an stand alone website covering basic information about Gatecontrol. I'll have a post covering this shortly.
 
