@@ -5,7 +5,7 @@ date:   2015-9-11
 categories: Other
 tags: DuckDuckGo Search
 ---
-The search engine you have never head of, or maybe you have. About 5 months ago I was convinced to switch over to [duck][DuckDuckGo] by a good friend. At first I was not a fan, it was different than the only search engine I had ever used, but I learned how amazing DuckDuckGo can be!
+The search engine you have never head of, or maybe you have. About 5 months ago I was convinced to switch over to [DuckDuckGo][duck] by a good friend. At first I was not a fan, it was different than the only search engine I had ever used, but I learned how amazing DuckDuckGo can be!
 
 ## !BANG
 This is probably the greatest feature of DuckDuckGo, bangs let you search most any website directly from DuckDuckGo. Let me give you a search example!
