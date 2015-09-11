@@ -52,14 +52,14 @@ h4 {
 
 a {
     color: $brand-color;
-
+    text-decoration: none;
+    
     &:visited {
         color: $brand-color;
     }
 
     &:hover {
         color: $brand-color;
-        text-decoration: none;
     }
 }
 
