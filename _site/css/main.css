@@ -41,12 +41,12 @@ h4 {
   font-size: 26px; }
 
 a {
-  color: #2F3250; }
+  color: #2F3250;
+  text-decoration: none; }
   a:visited {
     color: #2F3250; }
   a:hover {
-    color: #2F3250;
-    text-decoration: none; }
+    color: #2F3250; }
 
 /* Blockquotes */
 blockquote {
