@@ -8,7 +8,7 @@ dl, dd, ol, ul, figure {
 /* Basic styling */
 body {
   font-family: "Noto Sans";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   color: #4F4F4F;
   background-color: #F4F4F4;
@@ -23,8 +23,9 @@ ul, ol, dl, figure,
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Oswald";
-  font-weight: normal; }
+  font-family: "Source Sans Pro";
+  font-weight: normal;
+  font-weight: 600; }
 
 h1 {
   font-size: 60px;
@@ -40,10 +41,10 @@ h4 {
   font-size: 26px; }
 
 a {
-  color: #E65B5B;
+  color: #2F3250;
   text-decoration: none; }
   a:visited {
-    color: #d42020; }
+    color: #131420; }
   a:hover {
     color: #4F4F4F;
     text-decoration: none; }
@@ -76,7 +77,9 @@ pre {
   pre > code {
     border: 0;
     padding-right: 0;
-    padding-left: 0; }
+    padding-left: 0;
+    font-family: hack;
+    font-size: 13px; }
 
 /* Wrapper */
 .wrapper {
@@ -87,9 +90,9 @@ pre {
 .site-header {
   height: 80px;
   position: relative;
-  background-color: #E65B5B;
+  background-color: #2F3250;
   color: white;
-  font-family: "Oswald";
+  font-family: "Source Sans Pro";
   text-transform: uppercase; }
   .site-header .wrapper {
     max-width: 1200px;
@@ -97,7 +100,8 @@ pre {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px; }
+    padding: 0 20px;
+    font-weight: 400; }
   .site-header #menu {
     display: none; }
   .site-header .site-title {
@@ -119,7 +123,7 @@ pre {
 /* Site Footer */
 .site-footer {
   width: 100%;
-  background-color: #E65B5B;
+  background-color: #2F3250;
   height: 380px;
   display: flex;
   align-items: center;
@@ -152,7 +156,7 @@ pre {
     font-size: 60px; }
   .post-list h1 a:hover,
   .post-list h1 a:visited {
-    color: #E65B5B; }
+    color: #2F3250; }
   .post-list .post-content ul {
     margin-left: 30px; }
   .post-list > li.single-post {
@@ -172,7 +176,7 @@ pre {
   padding-left: 4px; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 15.75px;
   color: #828282;
   padding-left: 4px;
   margin-bottom: 10px; }
@@ -192,7 +196,7 @@ pre {
   .post .post-meta {
     margin-bottom: 0; }
   .post .post-title {
-    color: #E65B5B; }
+    color: #2F3250; }
   .post img {
     max-width: 100%; }
   .post .post-content ul {
@@ -209,10 +213,10 @@ pre {
   display: none; }
 
 .slicknav_label {
-  background-color: #E65B5B; }
+  background-color: #2F3250; }
 
 .slicknav_nav {
-  background-color: #E65B5B;
+  background-color: #2F3250;
   border-top: 0; }
 
 /**

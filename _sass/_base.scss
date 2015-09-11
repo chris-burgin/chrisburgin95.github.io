@@ -30,6 +30,7 @@ ul, ol, dl, figure,
 h1, h2, h3, h4, h5, h6 {
     font-family: $header-font;
     font-weight: normal;
+    font-weight: 600;
 }
 
 h1 {
@@ -101,6 +102,8 @@ pre {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        font-family: hack;
+        font-size: 13px;
     }
 }
 
