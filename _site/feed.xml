@@ -6,9 +6,46 @@
 </description>
     <link>chrisburgin.me/</link>
     <atom:link href="chrisburgin.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Aug 2015 08:35:38 -0400</pubDate>
-    <lastBuildDate>Fri, 28 Aug 2015 08:35:38 -0400</lastBuildDate>
+    <pubDate>Thu, 10 Sep 2015 22:33:18 -0400</pubDate>
+    <lastBuildDate>Thu, 10 Sep 2015 22:33:18 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Duck Duck Go</title>
+        <description>&lt;p&gt;The search engine you have never head of, or maybe you have. About 5 months ago I was convinced to switch over to [duck][DuckDuckGo] by a good friend. At first I was not a fan, it was different than the only search engine I had ever used, but I learned how amazing DuckDuckGo can be!&lt;/p&gt;
+
+&lt;h2 id=&quot;bang&quot;&gt;!BANG&lt;/h2&gt;
+&lt;p&gt;This is probably the greatest feature of DuckDuckGo, bangs let you search most any website directly from DuckDuckGo. Let me give you a search example!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;15in Macbook Pro !a
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you were to type this in to DuckDuckGo you would be taken to Amazon with search results for 15in Macbook Pro’s. This works with many other services such as Google, Youtube, Yahoo, etc…&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;fat cat photos !g | Encrypted Google Search
+fat cat videos !youtube | Youtube
+Harry Whittier Frees !w  | wikipedia
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;DuckDuckGo has a list of 6,395 &lt;a href=&quot;https://duckduckgo.com/bang&quot;&gt;!Bangs&lt;/a&gt; that you can use. Don’t forget you can set DuckDuckGo to your default search and use bangs when searching from your nav bar.&lt;/p&gt;
+
+&lt;h2 id=&quot;no-tracking&quot;&gt;No Tracking&lt;/h2&gt;
+&lt;p&gt;The other major selling point of DuckDuckGo is that they fight to keep you private. DuckDuckGo does not track any of your information, including searches. Checkout their &lt;a href=&quot;https://duckduckgo.com/privacy&quot;&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;free-t-shirt&quot;&gt;Free T-Shirt&lt;/h2&gt;
+&lt;p&gt;Convince 3 of your friends or family to switch over to the duck and you’ll get a free snazzy T-Shirt. Check it out &lt;a href=&quot;https://duckduckgo.com/spread&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 11 Sep 2015 00:00:00 -0400</pubDate>
+        <link>chrisburgin.me/other/2015/09/11/DuckDuckGo.html</link>
+        <guid isPermaLink="true">chrisburgin.me/other/2015/09/11/DuckDuckGo.html</guid>
+        
+        <category>dycj</category>
+        
+        
+        <category>other</category>
+        
+      </item>
     
       <item>
         <title>Gatehouse Update 0.2.0</title>
