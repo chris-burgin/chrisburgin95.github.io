@@ -41,12 +41,12 @@ h4 {
   font-size: 26px; }
 
 a {
-  color: #2F3250;
+  color: #CE5151;
   text-decoration: none; }
   a:visited {
-    color: #2F3250; }
+    color: #CE5151; }
   a:hover {
-    color: #2F3250; }
+    color: #CE5151; }
 
 /* Blockquotes */
 blockquote {
@@ -89,7 +89,7 @@ pre {
 .site-header {
   height: 80px;
   position: relative;
-  background-color: #2F3250;
+  background-color: #CE5151;
   color: white;
   font-family: "Source Sans Pro";
   text-transform: uppercase; }
@@ -122,7 +122,7 @@ pre {
 /* Site Footer */
 .site-footer {
   width: 100%;
-  background-color: #2F3250;
+  background-color: #CE5151;
   height: 380px;
   display: flex;
   align-items: center;
@@ -155,7 +155,7 @@ pre {
     font-size: 60px; }
   .post-list h1 a:hover,
   .post-list h1 a:visited {
-    color: #2F3250; }
+    color: #CE5151; }
   .post-list .post-content ul {
     margin-left: 30px; }
   .post-list > li.single-post {
@@ -195,7 +195,7 @@ pre {
   .post .post-meta {
     margin-bottom: 0; }
   .post .post-title {
-    color: #2F3250; }
+    color: #CE5151; }
   .post img {
     max-width: 100%; }
   .post .post-content ul {
@@ -212,10 +212,10 @@ pre {
   display: none; }
 
 .slicknav_label {
-  background-color: #2F3250; }
+  background-color: #CE5151; }
 
 .slicknav_nav {
-  background-color: #2F3250;
+  background-color: #CE5151;
   border-top: 0; }
 
 /**
