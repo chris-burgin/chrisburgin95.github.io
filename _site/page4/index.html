@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="/css/main.css">
 
   <!-- Other Links -->
-  <link rel="canonical" href="chrisburgin.me/">
+  <link rel="canonical" href="chrisburgin.me/page4/">
   <link rel="alternate" type="application/rss+xml" title="Chris Burgin" href="chrisburgin.me/feed.xml" />
 
 </head>
@@ -85,47 +85,65 @@
     
         <li class="single-post">
             <div class="share">
-  <a href="https://twitter.com/intent/tweet?text= http://chrisburgin.me/other/2015/09/11/DuckDuckGo.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/other/2015/09/11/DuckDuckGo.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/intent/tweet?text= http://chrisburgin.me/programming/2015/08/20/Compression.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2015/08/20/Compression.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
 </div>
 
-            <span class="post-meta date">Sep 11, 2015</span>
+            <span class="post-meta date">Aug 20, 2015</span>
             <h1>
-                <a class="post-link" href="/other/2015/09/11/DuckDuckGo.html">Duck Duck Go</a>
+                <a class="post-link" href="/programming/2015/08/20/Compression.html">Compression</a>
             </h1>
 
             <div class="post-content">
-                <p>The search engine you have never head of, or maybe you have. About 5 months ago I was convinced to switch over to <a href="http://duckduckgo.com">DuckDuckGo</a> by a good friend. At first I was not a fan, it was different than the only search engine I had ever used, but I learned how amazing DuckDuckGo can be!</p>
+                <p>Lately I found myself using several different types of compression on a regular basis. This is a quick documentation of the 3 types of compression I find myself using and what my standard uses are.</p>
 
-<h2 id="bang">!BANG</h2>
-<p>This is probably the greatest feature of DuckDuckGo, bangs let you search most any website directly from DuckDuckGo. Let me give you a search example!</p>
+<h3 id="zip">ZIP</h3>
+<p>Standard ZIP Compression is fast but provides minimum compression. I find this useful when I need to zip a folder to move from one server to another when the time it takes for a high level compression isn’t worth it.</p>
 
-<pre><code>15in Macbook Pro !a
-</code></pre>
+<p>Zipping a folder to move with secure copy takes much less time than trying to use recursive secure copy on an entire folder.</p>
 
-<p>If you were to type this in to DuckDuckGo you would be taken to Amazon with search results for 15in Macbook Pro’s. This works with many other services such as Google, Youtube, Yahoo, etc…</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>zip -r foldername.zip /file/or/folder/to/compress</code></pre></div>
 
-<pre><code>fat cat photos !g | Encrypted Google Search
-fat cat videos !youtube | Youtube
-Harry Whittier Frees !w  | wikipedia
-</code></pre>
+<p>To uncompress:</p>
 
-<p>DuckDuckGo has a list of 6,395 <a href="https://duckduckgo.com/bang">!Bangs</a> that you can use. Don’t forget you can set DuckDuckGo to your default search and use bangs when searching from your nav bar.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>zip unzip foldername.zip /extract/here</code></pre></div>
 
-<h2 id="no-tracking">No Tracking</h2>
-<p>The other major selling point of DuckDuckGo is that they fight to keep you private. DuckDuckGo does not track any of your information, including searches. Checkout their <a href="https://duckduckgo.com/privacy">privacy policy</a>.</p>
+<h3 id="tar-gz">TAR GZ</h3>
+<p>This form of TAR compression provides a decent compression level and isn’t to processor intensive. I find this compression works well for when I need to download a file from a server.</p>
 
-<h2 id="free-t-shirt">Free T-Shirt</h2>
-<p>Convince 3 of your friends or family to switch over to the duck and you’ll get a free snazzy T-Shirt. Check it out <a href="https://duckduckgo.com/spread">here</a>.</p>
+<p>The transfer speed from server to server can peak out at 20mb/s, which makes it easy to transfer large files. But when downloading files to my local machine speeds normally only reach 3 or 4mb/s. Even with this slower speed it is still beneficial to use a slightly lower level compression that runs quicker.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -cvzf archive.tar.gz /file/or/folder/to/compress</code></pre></div>
+
+<p>To uncompress:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -zxvf archive.tar.bz2 /extract/here</code></pre></div>
+
+<p>Another nice feature of TAR.GZ is that you can specify the compression level. The default of which is -6 with -9 being the maximum.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ GZIP</span><span class="o">=</span>-9 tar -cvzf archive.tar.gz /file/or/folder/to/compress</code></pre></div>
+
+<h3 id="tar-bz2">TAR BZ2</h3>
+<p>BZ2 provides the best compression level of the formats listed. The downside being that BZ2 is processor intensive. I use this compression the most when creating long term backups. For me the time is worth the extra space I gain on my external backup drive. As mentioned above you can also modify the compression level.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -jcvf archive.tar.bz2 /file/or/folder/to/compress</code></pre></div>
+
+<p>To uncompress:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -jxvf archive.tar.bz2 /extract/here</code></pre></div>
 
 
             </div>
 
             <ul class="post-meta">
             
-                 <li> DuckDuckGo </li>
+                 <li> compression </li>
             
-                 <li> Search </li>
+                 <li> zip </li>
+            
+                 <li> gz </li>
+            
+                 <li> bz2 </li>
             
             </ul>
         </li>
@@ -138,14 +156,14 @@ Harry Whittier Frees !w  | wikipedia
     <div class="pagination">
         <div>
             
-                <span class="previous">Previous</span>
+                <a href="/page3/" class="previous">Previous</a>
             
 
             
-                <a href="/page2/" class="next">Next</a>
+                <a href="/page5/" class="next">Next</a>
             
         </div>
-        <a href="/archive"><span class="page_number ">1 of 5</span></a>
+        <a href="/archive"><span class="page_number ">4 of 5</span></a>
     </div>
 
 

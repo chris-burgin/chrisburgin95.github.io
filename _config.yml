@@ -8,7 +8,7 @@ baseurl: ""
 url: "chrisburgin.me"
 twitter_username: chrisburgin95
 github_username:  chrisburgin95
-paginate: 5
+paginate: 1
 paginate_path: "/page:num/"
 
 # Build settings

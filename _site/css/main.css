@@ -10,7 +10,7 @@ body {
   font-family: "Noto Sans";
   font-size: 18px;
   font-weight: 300;
-  color: #4F4F4F;
+  color: #333;
   background-color: #F4F4F4;
   -webkit-text-size-adjust: 100%; }
 
@@ -32,13 +32,13 @@ h1 {
   text-transform: uppercase; }
 
 h2 {
-  font-size: 40px; }
+  font-size: 35px; }
 
 h3 {
-  font-size: 32px; }
+  font-size: 30px; }
 
 h4 {
-  font-size: 26px; }
+  font-size: 25px; }
 
 a {
   color: #CE5151;
@@ -129,20 +129,24 @@ pre {
   justify-content: center;
   flex-flow: column wrap;
   color: white; }
+  .site-footer img {
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin-top: 0; }
   .site-footer h2 {
     width: 100%;
     text-align: center;
     margin-bottom: 5px;
     font-size: 35px;
-    font-weight: 300; }
+    font-weight: 300;
+    margin-top: 0;
+    font-weight: 400; }
   .site-footer h3 {
     text-transform: lowercase;
     font-weight: 300;
     font-size: 20px;
-    margin-bottom: 0; }
-  .site-footer img {
-    padding-right: 15px;
-    padding-bottom: 20px; }
+    margin-bottom: 0;
+    margin-top: 0; }
 
 /* Page content */
 .page-content {
@@ -151,6 +155,11 @@ pre {
 .post-list {
   margin-left: 0;
   list-style: none; }
+  .post-list h1, .post-list h2, .post-list h3, .post-list h4 {
+    margin-bottom: 10px;
+    margin-top: 40px; }
+  .post-list h1 {
+    margin: 0; }
   .post-list h1 a {
     font-size: 60px; }
   .post-list h1 a:hover,
@@ -168,8 +177,8 @@ pre {
   .post-list ul.post-meta {
     list-style: none;
     display: flex; }
-    .post-list ul.post-meta > li:not(:first-child) {
-      padding-left: 10px; }
+    .post-list ul.post-meta li {
+      padding-right: 15px; }
 
 .share {
   padding-left: 4px; }
@@ -177,8 +186,10 @@ pre {
 .post-meta {
   font-size: 15.75px;
   color: #828282;
-  padding-left: 4px;
   margin-bottom: 10px; }
+
+.date {
+  padding-left: 4px; }
 
 .pagination {
   display: flex;
@@ -200,6 +211,11 @@ pre {
     max-width: 100%; }
   .post .post-content ul {
     padding-left: 30px; }
+  .post h1, .post h2, .post h3, .post h4 {
+    margin-bottom: 10px;
+    margin-top: 40px; }
+  .post h1 {
+    margin: 0; }
 
 /* Archive */
 .archive .post-link {
@@ -370,7 +386,8 @@ pre {
 
   .slicknav_nav a.page-link {
     font-size: 25px;
-    font-family: Oswald; }
+    font-family: Source Sans Pro;
+    font-weight: 400; }
 
   .site-header {
     display: none; } }

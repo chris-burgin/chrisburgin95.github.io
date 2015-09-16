@@ -3,6 +3,7 @@ layout: post
 title:  "Duck Duck Go"
 date:   2015-9-11
 categories: Other
+comments: true
 tags: DuckDuckGo Search
 ---
 The search engine you have never head of, or maybe you have. About 5 months ago I was convinced to switch over to [DuckDuckGo][duck] by a good friend. At first I was not a fan, it was different than the only search engine I had ever used, but I learned how amazing DuckDuckGo can be!
