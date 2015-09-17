@@ -20,13 +20,25 @@
     #menu {
         display: none;
     }
+    
+    .title-logo {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    .site-title {
-        font-size: 50px;
-        &,
-        &:visited,
-        &:hover {
-            color: White;
+        img {
+            max-height: 60px;
+            padding-right: 10px;
+        }
+
+        .site-title {
+            font-size: 50px;
+            &,
+            &:visited,
+            &:hover {
+                color: White;
+            }
         }
     }
 

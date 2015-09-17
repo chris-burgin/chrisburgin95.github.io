@@ -1,6 +1,9 @@
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="title-logo">
+        <img src="{{ "/static/img/logo.svg" | prepend: site.baseurl }}">
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
 
     <!-- Main Nav -->
     <nav class="site-nav">
