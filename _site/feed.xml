@@ -6,9 +6,75 @@
 </description>
     <link>chrisburgin.me/</link>
     <atom:link href="chrisburgin.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Sep 2015 23:17:56 -0400</pubDate>
-    <lastBuildDate>Wed, 16 Sep 2015 23:17:56 -0400</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2015 11:06:38 -0400</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2015 11:06:38 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Bankers Rounding - Python Library</title>
+        <description>&lt;h4 id=&quot;view-on-githubhttpsgithubcomchrisburgin95python-bankers-rounding&quot;&gt;&lt;a href=&quot;https://github.com/chrisburgin95/Python-Bankers-Rounding&quot;&gt;View On Github&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h3 id=&quot;the-problem&quot;&gt;The Problem&lt;/h3&gt;
+&lt;p&gt;Normally rounding is bias to round up. This is due to the fact that we
+round up for 5,6,7,8,9,10 and round down for 1,2,3,4 this means that 60% of
+the time we round up and 40% of the time we round down.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-fix&quot;&gt;The Fix&lt;/h3&gt;
+&lt;p&gt;By using banker rounding we have a 50% chance of rounding up or down.
+- If our number is &lt;strong&gt;6 or above we round up&lt;/strong&gt;
+- If our number is &lt;strong&gt;4 or below we round down&lt;/strong&gt;
+- If our number is &lt;strong&gt;5&lt;/strong&gt; we have to look at the &lt;strong&gt;digit to the left&lt;/strong&gt;
+    - If it is &lt;strong&gt;odd&lt;/strong&gt; we round up to the &lt;strong&gt;nearest even&lt;/strong&gt;
+    - If it is &lt;strong&gt;even&lt;/strong&gt; we &lt;strong&gt;leave it alone&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;&amp;gt;= 6 # 2.966 would become 2.97&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;= 5 # 2.965 would become 2.96&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;= 5 # 2.975 would become 2.98&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;&amp;lt;= 6 # 2.973 would become 2.97&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dependencies&quot;&gt;Dependencies&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;- Python 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;main-functionality&quot;&gt;Main Functionality&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;BankersRounding(number, breakpoint) \\ returns a bankers rounded number
+    - number \\ required float
+    - breakpoint \\ optional integer, rounding location, default=2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;additional-functionality&quot;&gt;Additional Functionality&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;FloatToList(number) \\  converts &#39;number&#39; and returns a list of integers
+    - number \\ required float
+
+ListToFloat(list) \\ returns a converted float
+    - list \\ required list derived from &#39;FloatToList&#39;
+
+LocateDecimal(list) \\ returns a decimal location
+    - list \\ required list derived from &#39;FloatToList&#39;
+
+Trim(list, endpoint) \\ returns a trimmed list
+    - list \\ required list derived from &#39;FloatToList&#39;
+    - endpoint \\ required int, represents trim location
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Wed, 28 Oct 2015 00:00:00 -0400</pubDate>
+        <link>chrisburgin.me/programming/2015/10/28/BankersRounding.html</link>
+        <guid isPermaLink="true">chrisburgin.me/programming/2015/10/28/BankersRounding.html</guid>
+        
+        <category>Bankers</category>
+        
+        <category>Rounding</category>
+        
+        <category>Python</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       <item>
         <title>Podcasts</title>

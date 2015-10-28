@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>who?</title>
-  <meta name="description" content="Personal site for chris burgin from louisville kentucky. Ministry, Web Development, Lighting Design.
-">
+  <title>Bankers Rounding - Python Library</title>
+  <meta name="description" content="View On Github">
   <link rel="icon" type="image/ico" href="/favicon.png"/>
 
   <!-- Fonts -->
@@ -22,7 +21,7 @@
   <link rel="stylesheet" href="/css/main.css">
 
   <!-- Other Links -->
-  <link rel="canonical" href="chrisburgin.me/about/">
+  <link rel="canonical" href="chrisburgin.me/programming/2015/10/28/BankersRounding.html">
   <link rel="alternate" type="application/rss+xml" title="Chris Burgin" href="chrisburgin.me/feed.xml" />
 
 </head>
@@ -90,16 +89,66 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">who?</h1>
+    <div class="share">
+  <a href="https://twitter.com/intent/tweet?text=Bankers Rounding - Python Library http://chrisburgin.me/programming/2015/10/28/BankersRounding.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2015/10/28/BankersRounding.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+</div>
+
+    <p class="post-meta date">Oct 28, 2015</p>
+    <h1 class="post-title">Bankers Rounding - Python Library</h1>
   </header>
 
   <article class="post-content">
-    <p>Hi my name is Chris, my passion is for ministry. I believe in taking the skills God has given you and using them to serve the Lord. For me those skills include Lighting Design and Web Development.</p>
+    <h4 id="view-on-githubhttpsgithubcomchrisburgin95python-bankers-rounding"><a href="https://github.com/chrisburgin95/Python-Bankers-Rounding">View On Github</a></h4>
 
-<p>Im a Lighting designer at Southeast Christain Church, Web Developer at Big Idea Interactive and my Github is a train wreck.</p>
+<h3 id="the-problem">The Problem</h3>
+<p>Normally rounding is bias to round up. This is due to the fact that we
+round up for 5,6,7,8,9,10 and round down for 1,2,3,4 this means that 60% of
+the time we round up and 40% of the time we round down.</p>
+
+<h3 id="the-fix">The Fix</h3>
+<p>By using banker rounding we have a 50% chance of rounding up or down.
+- If our number is <strong>6 or above we round up</strong>
+- If our number is <strong>4 or below we round down</strong>
+- If our number is <strong>5</strong> we have to look at the <strong>digit to the left</strong>
+    - If it is <strong>odd</strong> we round up to the <strong>nearest even</strong>
+    - If it is <strong>even</strong> we <strong>leave it alone</strong></p>
+
+<h3 id="examples">Examples</h3>
+<ul>
+  <li><code>&gt;= 6 # 2.966 would become 2.97</code></li>
+  <li><code>= 5 # 2.965 would become 2.96</code></li>
+  <li><code>= 5 # 2.975 would become 2.98</code></li>
+  <li><code>&lt;= 6 # 2.973 would become 2.97</code></li>
+</ul>
+
+<h3 id="dependencies">Dependencies</h3>
+<pre><code>- Python 3
+</code></pre>
+
+<h3 id="main-functionality">Main Functionality</h3>
+
+<pre><code>BankersRounding(number, breakpoint) \\ returns a bankers rounded number
+    - number \\ required float
+    - breakpoint \\ optional integer, rounding location, default=2
+</code></pre>
+
+<h3 id="additional-functionality">Additional Functionality</h3>
+<pre><code>FloatToList(number) \\  converts 'number' and returns a list of integers
+    - number \\ required float
+
+ListToFloat(list) \\ returns a converted float
+    - list \\ required list derived from 'FloatToList'
+
+LocateDecimal(list) \\ returns a decimal location
+    - list \\ required list derived from 'FloatToList'
+
+Trim(list, endpoint) \\ returns a trimmed list
+    - list \\ required list derived from 'FloatToList'
+    - endpoint \\ required int, represents trim location
+</code></pre>
 
   </article>
-
 </div>
 
       </div>
