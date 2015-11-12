@@ -13,7 +13,7 @@ These songs can then be voted on via twitter, of which the highest will be selec
 
 Im currently working on this application and have made progress but Im expecting to be working on this through this christmas and be finished early next year. Ive loaded some images below, obviously this is a work in progress but much of the base is coming together.
 
-Once I am finished I will make my github repo pupic for this project.
+Once I am finished I will make my github repo public for this project.
 
 
 <img src="http://i.imgur.com/vWEJ0wg.png"/>
