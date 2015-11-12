@@ -65,6 +65,8 @@
         
           
         
+          
+        
         <div>
             <a class="page-link" target="blank" href="http://twitter.com/chrisburgin95"><i class="fa fa-twitter"></i></a>
             <a class="page-link" target="blank" href="http://github.com/chrisburgin95"><i class="fa fa-github"></i></a>
@@ -92,47 +94,74 @@
     
         <li class="single-post">
             <div class="share">
-  <a href="https://twitter.com/intent/tweet?text= http://chrisburgin.me/podcasts/2015/09/16/Podcasts.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/podcasts/2015/09/16/Podcasts.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/intent/tweet?text= http://chrisburgin.me/programming/2015/10/28/BankersRounding.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2015/10/28/BankersRounding.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
 </div>
 
-            <span class="post-meta date">Sep 16, 2015</span>
+            <span class="post-meta date">Oct 28, 2015</span>
             <h1>
-                <a class="post-link" href="/podcasts/2015/09/16/Podcasts.html">Podcasts</a>
+                <a class="post-link" href="/programming/2015/10/28/BankersRounding.html">Bankers Rounding - Python Library</a>
             </h1>
 
             <div class="post-content">
-                <p>Recently I was turned on to podcast by @steveostudios. Here is a list of Podcasts that I have picked in my pod catcher in my short
-podcasting career.</p>
+                <h4 id="view-on-githubhttpsgithubcomchrisburgin95python-bankers-rounding"><a href="https://github.com/chrisburgin95/Python-Bankers-Rounding">View On Github</a></h4>
 
-<h3 id="shop-talk-show">Shop Talk Show</h3>
-<p>A self proclaimed sound effects podcast about web development. This is probably my favorite podcast. Each week Chris Collier and Dave Rupert bring on a guest from the front in web development world where they are interviewed with user submitted questions. Theres lots of episodes but start from the beginning, its worth the time to see how web development has evolved.</p>
+<h3 id="the-problem">The Problem</h3>
+<p>Normally rounding is bias to round up. This is due to the fact that we
+round up for 5,6,7,8,9,10 and round down for 1,2,3,4 this means that 60% of
+the time we round up and 40% of the time we round down.</p>
 
-<p><a href="http://shoptalkshow.com/">Visit Shop Talk Show</a></p>
+<h3 id="the-fix">The Fix</h3>
+<p>By using banker rounding we have a 50% chance of rounding up or down.
+- If our number is <strong>6 or above we round up</strong>
+- If our number is <strong>4 or below we round down</strong>
+- If our number is <strong>5</strong> we have to look at the <strong>digit to the left</strong>
+    - If it is <strong>odd</strong> we round up to the <strong>nearest even</strong>
+    - If it is <strong>even</strong> we <strong>leave it alone</strong></p>
 
-<h3 id="code-pen-radio">Code Pen Radio</h3>
-<p>The story behind the founding and on-going development of codepen.io. This podcast features Chris Collier, Alex Vazquez and Tim Sabat. The great thing about this podcast is that it dives into the lives of startup founders, not just code but the day to day lives of the hosts.</p>
+<h3 id="examples">Examples</h3>
+<ul>
+  <li><code>&gt;= 6 # 2.966 would become 2.97</code></li>
+  <li><code>= 5 # 2.965 would become 2.96</code></li>
+  <li><code>= 5 # 2.975 would become 2.98</code></li>
+  <li><code>&lt;= 6 # 2.973 would become 2.97</code></li>
+</ul>
 
-<p><a href="http://blog.codepen.io/radio/">Visit Code Pen Radio</a></p>
+<h3 id="dependencies">Dependencies</h3>
+<pre><code>- Python 3
+</code></pre>
 
-<h3 id="welcome-to-night-vale">Welcome to Night Vale</h3>
-<p>Not a technical podcast, this is the story of a mythical town in the desert called. This podcast follows a local radio host and his bi-monthly reporting. Its probably the strangest on the list and its one of my favorites and also the first podcast I listed too.</p>
+<h3 id="main-functionality">Main Functionality</h3>
 
-<p><a href="http://www.commonplacebooks.com/welcome-to-night-vale/">Visit Welcome to Night Vale</a></p>
+<pre><code>BankersRounding(number, breakpoint) \\ returns a bankers rounded number
+    - number \\ required float
+    - breakpoint \\ optional integer, rounding location, default=2
+</code></pre>
 
-<p>These are my current podcast, I have a few other in my query which include <a href="http://thehistoryofrome.typepad.com/">History of Rome</a> and <a href="http://freakonomics.com/radio/">Freakanomics Radio</a>.</p>
+<h3 id="additional-functionality">Additional Functionality</h3>
+<pre><code>FloatToList(number) \\  converts 'number' and returns a list of integers
+    - number \\ required float
+
+ListToFloat(list) \\ returns a converted float
+    - list \\ required list derived from 'FloatToList'
+
+LocateDecimal(list) \\ returns a decimal location
+    - list \\ required list derived from 'FloatToList'
+
+Trim(list, endpoint) \\ returns a trimmed list
+    - list \\ required list derived from 'FloatToList'
+    - endpoint \\ required int, represents trim location
+</code></pre>
 
             </div>
 
             <ul class="post-meta">
             
-                 <li> Podcasts </li>
+                 <li> Bankers </li>
             
-                 <li> Shoptalk </li>
+                 <li> Rounding </li>
             
-                 <li> CodePen </li>
-            
-                 <li> NightVale </li>
+                 <li> Python </li>
             
             </ul>
         </li>
@@ -152,7 +181,7 @@ podcasting career.</p>
                 <a href="/page3/" class="next">Next</a>
             
         </div>
-        <a href="/archive"><span class="page_number ">2 of 7</span></a>
+        <a href="/archive"><span class="page_number ">2 of 8</span></a>
     </div>
 
 
