@@ -44,4 +44,23 @@
             font-size: 40px;
         }
     }
+
+    .pagination {
+        padding: 0 1rem;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .who {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+
+        img {
+            width: 100%;
+            padding-right: 2rem;
+            max-width: 40rem;
+            padding-bottom: 2rem;
+        }
+    }
 }

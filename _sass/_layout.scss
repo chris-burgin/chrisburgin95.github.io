@@ -20,7 +20,7 @@
     #menu {
         display: none;
     }
-    
+
     .title-logo {
         height: 100%;
         display: flex;
@@ -54,6 +54,67 @@
                 margin-right: 20px;
             }
         }
+        .social-wrapper {
+            display: flex;
+
+            .icon {
+                display: flex;
+                justify-content: space-between;
+                overflow: hidden;
+                width: 2rem;
+                transition: width .3s;
+                background-color: $brand-color-dark;
+                padding-left: .6rem;
+                padding-top: .3rem;
+                padding-bottom: .3rem;
+
+                border-radius: .2rem;
+
+
+                .page-link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+
+                .page-link i {
+                    margin-right: .2rem;
+                }
+
+                span {
+                    opacity: 0;
+                    transition: opacity .1s;
+                    padding-left: 1rem;
+                }
+            }
+
+            .icon:hover {
+                padding-left: 0;
+                justify-content: center;
+                transition: width .3s;
+                background-color: $brand-color-dark2;
+
+                &.twitter{
+                    width: 10rem;
+                }
+                &.github{
+                    width: 8.5rem;
+                }
+                &.flickr{
+                    width: 7.5rem;
+                }
+                &.rss{
+                    width: 6rem;
+                }
+            }
+
+            .icon:hover span {
+                opacity: 1;
+                transition: opacity 1s;
+                padding-left: .2rem;
+                transition: padding-left 1s;
+            }
+        }
 
         div {
             margin-left: 20px;
@@ -65,13 +126,14 @@
 /* Site Footer */
 .site-footer {
     width: 100%;
-    background-color: $brand-color;
-    height: 380px;
+    background-color: $accent-color;
+    height: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
     color: white;
+    border-bottom: 2rem solid $brand-color;
 
     img {
         padding-right: 15px;
@@ -236,4 +298,21 @@
 .slicknav_nav {
     background-color: $brand-color;
     border-top: 0;
+}
+
+/* Who */
+.who {
+    display: flex;
+    align-items: flex-start;
+
+    img {
+        width: 100%;
+        padding-right: 2rem;
+        max-width: 15rem;
+    }
+
+    .who-content {
+        display: flex;
+        flex-flow: column;
+    }
 }
