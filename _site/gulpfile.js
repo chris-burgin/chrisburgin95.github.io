@@ -14,7 +14,7 @@ gulp.task('css', function() {
     }))
     .pipe(cssnano())
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('_site/css'));
+    .pipe(gulp.dest('static/css'));
 });
 
 // run 'gulp watch'
