@@ -149,10 +149,10 @@ pre {
       .site-header .site-nav .social-wrapper .icon:hover {
         padding-left: 0;
         justify-content: center;
-        transition: width .3s;
+        transition: width .5s;
         background-color: #a42e2e; }
         .site-header .site-nav .social-wrapper .icon:hover.twitter {
-          width: 10rem; }
+          width: 9rem; }
         .site-header .site-nav .social-wrapper .icon:hover.github {
           width: 8.5rem; }
         .site-header .site-nav .social-wrapper .icon:hover.flickr {

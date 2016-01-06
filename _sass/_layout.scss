@@ -91,11 +91,11 @@
             .icon:hover {
                 padding-left: 0;
                 justify-content: center;
-                transition: width .3s;
+                transition: width .5s;
                 background-color: $brand-color-dark2;
 
                 &.twitter{
-                    width: 10rem;
+                    width: 9rem;
                 }
                 &.github{
                     width: 8.5rem;
