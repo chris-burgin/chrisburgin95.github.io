@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python Political Data Collector"
-date:   2016-1-6
+date:   2016-1-2
 categories: Programming
 tags: programming python data sql
 ---

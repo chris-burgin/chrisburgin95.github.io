@@ -6,9 +6,40 @@
 </description>
     <link>chrisburgin.me/</link>
     <atom:link href="chrisburgin.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jan 2016 15:03:16 -0500</pubDate>
-    <lastBuildDate>Wed, 06 Jan 2016 15:03:16 -0500</lastBuildDate>
+    <pubDate>Wed, 06 Jan 2016 15:04:54 -0500</pubDate>
+    <lastBuildDate>Wed, 06 Jan 2016 15:04:54 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Twitter Song Polling Application</title>
+        <description>&lt;p&gt;Recently I have started working on a personal project involving twitter polling. This application allows for the input of songs and creation polls which can then be presented to an audience via an external screen.&lt;/p&gt;
+
+&lt;p&gt;These songs can then be voted on via twitter, of which the highest will be selected and played, and then the next poll will be started.&lt;/p&gt;
+
+&lt;p&gt;Im currently working on this application and have made progress but Im expecting to be working on this through this christmas and be finished early next year. Ive loaded some images below, obviously this is a work in progress but much of the base is coming together.&lt;/p&gt;
+
+&lt;p&gt;Once I am finished I will make my github repo public for this project.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/vWEJ0wg.png&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/BPN8tDJ.png&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/IlLnzo6.png&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/5OtWIoM.png&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/LaC2UKH.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jan 2016 00:00:00 -0500</pubDate>
+        <link>chrisburgin.me/programming/2016/01/06/New-Polling-Application.html</link>
+        <guid isPermaLink="true">chrisburgin.me/programming/2016/01/06/New-Polling-Application.html</guid>
+        
+        <category>Polling</category>
+        
+        <category>Twitter</category>
+        
+        <category>Javascript</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       <item>
         <title>Python Political Data Collector</title>
@@ -28,9 +59,9 @@
 
 &lt;p&gt;The results were fairly interesting, I don’t have enough data to draw a conclusion as to whether my program is correct or not. Humans are more complex than their 140 character tweet, so it would be foolish to think I can define even their political views from so little information.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 06 Jan 2016 00:00:00 -0500</pubDate>
-        <link>chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html</link>
-        <guid isPermaLink="true">chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html</guid>
+        <pubDate>Sat, 02 Jan 2016 00:00:00 -0500</pubDate>
+        <link>chrisburgin.me/programming/2016/01/02/Twitter-Data-Collector.html</link>
+        <guid isPermaLink="true">chrisburgin.me/programming/2016/01/02/Twitter-Data-Collector.html</guid>
         
         <category>programming</category>
         
@@ -39,37 +70,6 @@
         <category>data</category>
         
         <category>sql</category>
-        
-        
-        <category>programming</category>
-        
-      </item>
-    
-      <item>
-        <title>Twitter Song Polling Application</title>
-        <description>&lt;p&gt;Recently I have started working on a personal project involving twitter polling. This application allows for the input of songs and creation polls which can then be presented to an audience via an external screen.&lt;/p&gt;
-
-&lt;p&gt;These songs can then be voted on via twitter, of which the highest will be selected and played, and then the next poll will be started.&lt;/p&gt;
-
-&lt;p&gt;Im currently working on this application and have made progress but Im expecting to be working on this through this christmas and be finished early next year. Ive loaded some images below, obviously this is a work in progress but much of the base is coming together.&lt;/p&gt;
-
-&lt;p&gt;Once I am finished I will make my github repo public for this project.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/vWEJ0wg.png&quot; /&gt;
-&lt;img src=&quot;http://i.imgur.com/BPN8tDJ.png&quot; /&gt;
-&lt;img src=&quot;http://i.imgur.com/IlLnzo6.png&quot; /&gt;
-&lt;img src=&quot;http://i.imgur.com/5OtWIoM.png&quot; /&gt;
-&lt;img src=&quot;http://i.imgur.com/LaC2UKH.png&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 28 Oct 2015 00:00:00 -0400</pubDate>
-        <link>chrisburgin.me/programming/2015/10/28/New-Polling-Application.html</link>
-        <guid isPermaLink="true">chrisburgin.me/programming/2015/10/28/New-Polling-Application.html</guid>
-        
-        <category>Polling</category>
-        
-        <category>Twitter</category>
-        
-        <category>Javascript</category>
         
         
         <category>programming</category>

@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Python Political Data Collector</title>
-  <meta name="description" content="View on Github">
+  <title>Twitter Song Polling Application</title>
+  <meta name="description" content="Recently I have started working on a personal project involving twitter polling. This application allows for the input of songs and creation polls which can ...">
   <link rel="icon" type="image/ico" href="/favicon.png"/>
 
   <!-- Fonts -->
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/static/css/main.min.css">
 
   <!-- Other Links -->
-  <link rel="canonical" href="chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html">
+  <link rel="canonical" href="chrisburgin.me/programming/2016/01/06/New-Polling-Application.html">
   <link rel="alternate" type="application/rss+xml" title="Chris Burgin" href="chrisburgin.me/feed.xml" />
 
 </head>
@@ -94,30 +94,28 @@
 
   <header class="post-header">
     <div class="share">
-  <a href="https://twitter.com/intent/tweet?text=Python Political Data Collector http://chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/intent/tweet?text=Twitter Song Polling Application http://chrisburgin.me/programming/2016/01/06/New-Polling-Application.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2016/01/06/New-Polling-Application.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
 </div>
 
     <p class="post-meta date">Jan 6, 2016</p>
-    <h1 class="post-title">Python Political Data Collector</h1>
+    <h1 class="post-title">Twitter Song Polling Application</h1>
   </header>
 
   <article class="post-content">
-    <h4 id="view-on-githubhttpsgithubcomchrisburgin95twitter-data-collectorsettings"><a href="https://github.com/chrisburgin95/twitter-data-collector/settings">View on Github</a></h4>
+    <p>Recently I have started working on a personal project involving twitter polling. This application allows for the input of songs and creation polls which can then be presented to an audience via an external screen.</p>
 
-<p>With the looming election and politics around every corner I wanted to have some fun collecting some data from my friends. I wanted to figure out whether my friends leaned to the left, or to the right. With one catch, I didn’t want to ask them.</p>
+<p>These songs can then be voted on via twitter, of which the highest will be selected and played, and then the next poll will be started.</p>
 
-<h2 id="how">How</h2>
-<p>The data for this needs to come from somewhere, for this project its twitter. A simple python script looks for twitter usernames inputed into a mysql database. From here the script use the twitter API to fetch their userid and begin pulling in the users tweets, storing them in a database.</p>
+<p>Im currently working on this application and have made progress but Im expecting to be working on this through this christmas and be finished early next year. Ive loaded some images below, obviously this is a work in progress but much of the base is coming together.</p>
 
-<p>Users tweets are then parsed into single words, which are stored in a database with a foreign key linking them to the original tweet.</p>
+<p>Once I am finished I will make my github repo public for this project.</p>
 
-<h2 id="left-or-right">Left or Right</h2>
-<p>After collecting this data, its time to look into the users political stance. Users tweets are compared too the most used words by both republican and democratic presidential candidates.</p>
-
-<p><a href="http://www.forbes.com/sites/kalevleetaru/2015/09/18/second-republican-debate-word-clouds-what-the-candidates-talked-about/">Forbes Presidential Words</a></p>
-
-<p>The results were fairly interesting, I don’t have enough data to draw a conclusion as to whether my program is correct or not. Humans are more complex than their 140 character tweet, so it would be foolish to think I can define even their political views from so little information.</p>
+<p><img src="http://i.imgur.com/vWEJ0wg.png" />
+<img src="http://i.imgur.com/BPN8tDJ.png" />
+<img src="http://i.imgur.com/IlLnzo6.png" />
+<img src="http://i.imgur.com/5OtWIoM.png" />
+<img src="http://i.imgur.com/LaC2UKH.png" /></p>
 
   </article>
 </div>
