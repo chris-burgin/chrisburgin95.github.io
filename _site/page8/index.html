@@ -67,6 +67,8 @@
         
           
         
+          
+        
         <div class="social-wrapper">
             <div class="icon twitter"><a class="page-link" target="blank" href="http://twitter.com/chrisburgin95"><i class="fa fa-twitter"></i><span> Twitter </span></a></div>
             <div class="icon github"><a class="page-link" target="blank" href="http://github.com/chrisburgin95"><i class="fa fa-github"></i><span> Github </span></a></div>
@@ -94,64 +96,65 @@
     
         <li class="single-post">
             <div class="share">
-  <a href="https://twitter.com/intent/tweet?text= http://chrisburgin.me/programming/2015/08/19/Sublime-to-Atom.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2015/08/19/Sublime-to-Atom.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/intent/tweet?text= http://chrisburgin.me/programming/2015/08/20/Compression.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2015/08/20/Compression.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
 </div>
 
-            <span class="post-meta date">Aug 19, 2015</span>
+            <span class="post-meta date">Aug 20, 2015</span>
             <h1>
-                <a class="post-link" href="/programming/2015/08/19/Sublime-to-Atom.html">Switching from Sublime to Atom</a>
+                <a class="post-link" href="/programming/2015/08/20/Compression.html">Compression</a>
             </h1>
 
             <div class="post-content">
-                <p>Earlier this month I was talked into making the switch from my beloved sublime to <a href="http://jekyllrb.io">Atom</a>. Ive gone through a few code editors over the past few years, including <a href="https://notepad-plus-plus.org/">Notepad++</a> (how and why did I do this??), <a href="https://www.panic.com/coda/">Coda 2</a> (love but bulky), <a href="http://www.sublimetext.com/">Sublime 2</a> (everything I want and ugly), and now atom (everything I want, more, and beautifull).</p>
+                <p>Lately I found myself using several different types of compression on a regular basis. This is a quick documentation of the 3 types of compression I find myself using and what my standard uses are.</p>
 
-<p>I think its fairly safe to say that Atom is my new favorite code and editor, and even markdown writer. It has everything I want, A beautiful interface, amazing package library, and great community support.</p>
+<h3 id="zip">ZIP</h3>
+<p>Standard ZIP Compression is fast but provides minimum compression. I find this useful when I need to zip a folder to move from one server to another when the time it takes for a high level compression isn’t worth it.</p>
 
-<h2 id="theme">Theme</h2>
+<p>Zipping a folder to move with secure copy takes much less time than trying to use recursive secure copy on an entire folder.</p>
 
-<p>Something I’ve always despised about the majority of themes for code editors is the lack of an amazing light theme. There is an abundance of dark themes for every editor and they all look great, but Im tired of using dark themes. It makes me tired and I just don’t feel inspired when using a dark theme. Atom solved this problem for me right from the start. Included is the amazing <a href="https://github.com/atom/one-light-ui">One Light</a>, it looks great, easy to read, and the syntax color selection is perfect.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>zip -r foldername.zip /file/or/folder/to/compress</code></pre></div>
 
-<h2 id="other-packages">Other Packages</h2>
+<p>To uncompress:</p>
 
-<p>After I enabled this theme there were a few other minor modifications and packages I installed before feeling right at home in Atom.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>zip unzip foldername.zip /extract/here</code></pre></div>
 
-<ul>
-  <li><a href="https://atom.io/packages/minimap">Atom Mini Map</a> - A great package that carries over the mini map functionality that so many people loved from sublime.</li>
-  <li><a href="https://atom.io/packages/linter">Atom Linter</a> - This is something I recently started using just before my switch from Sublime to Atom. Linters help you catch errors as well as keep your code uniform. <a href="https://github.com/AtomLinter/linter-pyflakes">PyFlakes</a> and <a href="https://atom.io/packages/linter-jshint">JSHint</a> are the main two language extensions I use with Atom Linter.</li>
-  <li><a href="https://atom.io/packages/markdown-writer">Markdown Writer</a> - Simple markdown editor with a live preview.</li>
-</ul>
+<h3 id="tar-gz">TAR GZ</h3>
+<p>This form of TAR compression provides a decent compression level and isn’t to processor intensive. I find this compression works well for when I need to download a file from a server.</p>
 
-<h2 id="other-perks">Other Perks</h2>
-<p>Additionally there are some perks to Atom that sold me on my decision.</p>
+<p>The transfer speed from server to server can peak out at 20mb/s, which makes it easy to transfer large files. But when downloading files to my local machine speeds normally only reach 3 or 4mb/s. Even with this slower speed it is still beneficial to use a slightly lower level compression that runs quicker.</p>
 
-<ul>
-  <li><strong>Git Status</strong> - Atom shows which files and lines have not been commited if you are working in a git repo. It gets as specific as showing which lines are <font color="#1cdf53"> new </font>, <font color="#e39d34"> edited</font> and even where lines have been <font color="#ff1700">removed</font>.</li>
-  <li><strong>Better Split Views</strong> - Atoms Split view is worlds easier to use than sublime. Simply right click and choose how you would like to split the pane. Atom supports both horizontal and Vertically splitting.</li>
-  <li><strong>Visual Package Manager</strong> - Atom provides a visual, searchable packages manager while still allowing you to access commands through <code>cmd + shift + p</code>.</li>
-  <li><strong>Open Source</strong> - Yes.</li>
-</ul>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -cvzf archive.tar.gz /file/or/folder/to/compress</code></pre></div>
 
-<p>Along with these perks I love that Atom is in active development. Sublime 3 has been in beta now for quite some time now and is still loaded with bugs, and while sublime 2 is very reliable its community is starting to shrink rapidly with introduction of more modern text editors.</p>
+<p>To uncompress:</p>
 
-<h2 id="downsides">Downsides</h2>
-<p>The only downside that I have experienced with Atom is that it runs on a <a href="http://www.chromium.org/">Chromium</a> engine. If your on a older machine you will likely notice that atom is heavy and slow to open.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -zxvf archive.tar.bz2 /extract/here</code></pre></div>
 
-<p>Atom is build on what is now known as <a href="https://github.com/atom/electron">Electron</a>, formerly known as Atom Shell, this is a very cool piece of software that lets to write cross platform native applications using html, css, and javascript very easily, it works by running your application on a Chromium engine and provides a set of tools for interacting with your environment.</p>
+<p>Another nice feature of TAR.GZ is that you can specify the compression level. The default of which is -6 with -9 being the maximum.</p>
 
-<h2 id="get-it">Get It</h2>
-<p>All in all Atom is a great code editor that provides all the functionality I need while remaining visually appealing and having a great community to back it up. Its worth the switch for most people, and since it open source theres not much harm in just giving it a try if your on the border.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ GZIP</span><span class="o">=</span>-9 tar -cvzf archive.tar.gz /file/or/folder/to/compress</code></pre></div>
+
+<h3 id="tar-bz2">TAR BZ2</h3>
+<p>BZ2 provides the best compression level of the formats listed. The downside being that BZ2 is processor intensive. I use this compression the most when creating long term backups. For me the time is worth the extra space I gain on my external backup drive. As mentioned above you can also modify the compression level.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -jcvf archive.tar.bz2 /file/or/folder/to/compress</code></pre></div>
+
+<p>To uncompress:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -jxvf archive.tar.bz2 /extract/here</code></pre></div>
 
 
             </div>
 
             <ul class="post-meta">
             
-                 <li> programming </li>
+                 <li> compression </li>
             
-                 <li> atom </li>
+                 <li> zip </li>
             
-                 <li> sublime </li>
+                 <li> gz </li>
+            
+                 <li> bz2 </li>
             
             </ul>
         </li>
@@ -168,10 +171,10 @@
             
 
             
-                <span class="next ">Next</span>
+                <a href="/page9/" class="next">Next</a>
             
         </div>
-        <a href="/archive"><span class="page_number ">8 of 8</span></a>
+        <a href="/archive"><span class="page_number ">8 of 9</span></a>
     </div>
 
 

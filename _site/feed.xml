@@ -6,9 +6,44 @@
 </description>
     <link>chrisburgin.me/</link>
     <atom:link href="chrisburgin.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jan 2016 14:31:42 -0500</pubDate>
-    <lastBuildDate>Wed, 06 Jan 2016 14:31:42 -0500</lastBuildDate>
+    <pubDate>Wed, 06 Jan 2016 15:03:16 -0500</pubDate>
+    <lastBuildDate>Wed, 06 Jan 2016 15:03:16 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Python Political Data Collector</title>
+        <description>&lt;h4 id=&quot;view-on-githubhttpsgithubcomchrisburgin95twitter-data-collectorsettings&quot;&gt;&lt;a href=&quot;https://github.com/chrisburgin95/twitter-data-collector/settings&quot;&gt;View on Github&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;With the looming election and politics around every corner I wanted to have some fun collecting some data from my friends. I wanted to figure out whether my friends leaned to the left, or to the right. With one catch, I didn’t want to ask them.&lt;/p&gt;
+
+&lt;h2 id=&quot;how&quot;&gt;How&lt;/h2&gt;
+&lt;p&gt;The data for this needs to come from somewhere, for this project its twitter. A simple python script looks for twitter usernames inputed into a mysql database. From here the script use the twitter API to fetch their userid and begin pulling in the users tweets, storing them in a database.&lt;/p&gt;
+
+&lt;p&gt;Users tweets are then parsed into single words, which are stored in a database with a foreign key linking them to the original tweet.&lt;/p&gt;
+
+&lt;h2 id=&quot;left-or-right&quot;&gt;Left or Right&lt;/h2&gt;
+&lt;p&gt;After collecting this data, its time to look into the users political stance. Users tweets are compared too the most used words by both republican and democratic presidential candidates.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.forbes.com/sites/kalevleetaru/2015/09/18/second-republican-debate-word-clouds-what-the-candidates-talked-about/&quot;&gt;Forbes Presidential Words&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The results were fairly interesting, I don’t have enough data to draw a conclusion as to whether my program is correct or not. Humans are more complex than their 140 character tweet, so it would be foolish to think I can define even their political views from so little information.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jan 2016 00:00:00 -0500</pubDate>
+        <link>chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html</link>
+        <guid isPermaLink="true">chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html</guid>
+        
+        <category>programming</category>
+        
+        <category>python</category>
+        
+        <category>data</category>
+        
+        <category>sql</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       <item>
         <title>Twitter Song Polling Application</title>

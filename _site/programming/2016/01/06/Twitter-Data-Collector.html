@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Compression</title>
-  <meta name="description" content="Lately I found myself using several different types of compression on a regular basis. This is a quick documentation of the 3 types of compression I find mys...">
+  <title>Python Political Data Collector</title>
+  <meta name="description" content="View on Github">
   <link rel="icon" type="image/ico" href="/favicon.png"/>
 
   <!-- Fonts -->
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/static/css/main.min.css">
 
   <!-- Other Links -->
-  <link rel="canonical" href="chrisburgin.me/programming/2015/08/20/Compression.html">
+  <link rel="canonical" href="chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html">
   <link rel="alternate" type="application/rss+xml" title="Chris Burgin" href="chrisburgin.me/feed.xml" />
 
 </head>
@@ -94,52 +94,30 @@
 
   <header class="post-header">
     <div class="share">
-  <a href="https://twitter.com/intent/tweet?text=Compression http://chrisburgin.me/programming/2015/08/20/Compression.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2015/08/20/Compression.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/intent/tweet?text=Python Political Data Collector http://chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2016/01/06/Twitter-Data-Collector.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
 </div>
 
-    <p class="post-meta date">Aug 20, 2015</p>
-    <h1 class="post-title">Compression</h1>
+    <p class="post-meta date">Jan 6, 2016</p>
+    <h1 class="post-title">Python Political Data Collector</h1>
   </header>
 
   <article class="post-content">
-    <p>Lately I found myself using several different types of compression on a regular basis. This is a quick documentation of the 3 types of compression I find myself using and what my standard uses are.</p>
+    <h4 id="view-on-githubhttpsgithubcomchrisburgin95twitter-data-collectorsettings"><a href="https://github.com/chrisburgin95/twitter-data-collector/settings">View on Github</a></h4>
 
-<h3 id="zip">ZIP</h3>
-<p>Standard ZIP Compression is fast but provides minimum compression. I find this useful when I need to zip a folder to move from one server to another when the time it takes for a high level compression isn’t worth it.</p>
+<p>With the looming election and politics around every corner I wanted to have some fun collecting some data from my friends. I wanted to figure out whether my friends leaned to the left, or to the right. With one catch, I didn’t want to ask them.</p>
 
-<p>Zipping a folder to move with secure copy takes much less time than trying to use recursive secure copy on an entire folder.</p>
+<h2 id="how">How</h2>
+<p>The data for this needs to come from somewhere, for this project its twitter. A simple python script looks for twitter usernames inputed into a mysql database. From here the script use the twitter API to fetch their userid and begin pulling in the users tweets, storing them in a database.</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>zip -r foldername.zip /file/or/folder/to/compress</code></pre></div>
+<p>Users tweets are then parsed into single words, which are stored in a database with a foreign key linking them to the original tweet.</p>
 
-<p>To uncompress:</p>
+<h2 id="left-or-right">Left or Right</h2>
+<p>After collecting this data, its time to look into the users political stance. Users tweets are compared too the most used words by both republican and democratic presidential candidates.</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>zip unzip foldername.zip /extract/here</code></pre></div>
+<p><a href="http://www.forbes.com/sites/kalevleetaru/2015/09/18/second-republican-debate-word-clouds-what-the-candidates-talked-about/">Forbes Presidential Words</a></p>
 
-<h3 id="tar-gz">TAR GZ</h3>
-<p>This form of TAR compression provides a decent compression level and isn’t to processor intensive. I find this compression works well for when I need to download a file from a server.</p>
-
-<p>The transfer speed from server to server can peak out at 20mb/s, which makes it easy to transfer large files. But when downloading files to my local machine speeds normally only reach 3 or 4mb/s. Even with this slower speed it is still beneficial to use a slightly lower level compression that runs quicker.</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -cvzf archive.tar.gz /file/or/folder/to/compress</code></pre></div>
-
-<p>To uncompress:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -zxvf archive.tar.bz2 /extract/here</code></pre></div>
-
-<p>Another nice feature of TAR.GZ is that you can specify the compression level. The default of which is -6 with -9 being the maximum.</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ GZIP</span><span class="o">=</span>-9 tar -cvzf archive.tar.gz /file/or/folder/to/compress</code></pre></div>
-
-<h3 id="tar-bz2">TAR BZ2</h3>
-<p>BZ2 provides the best compression level of the formats listed. The downside being that BZ2 is processor intensive. I use this compression the most when creating long term backups. For me the time is worth the extra space I gain on my external backup drive. As mentioned above you can also modify the compression level.</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -jcvf archive.tar.bz2 /file/or/folder/to/compress</code></pre></div>
-
-<p>To uncompress:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>tar -jxvf archive.tar.bz2 /extract/here</code></pre></div>
-
+<p>The results were fairly interesting, I don’t have enough data to draw a conclusion as to whether my program is correct or not. Humans are more complex than their 140 character tweet, so it would be foolish to think I can define even their political views from so little information.</p>
 
   </article>
 </div>
