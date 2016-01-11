@@ -97,24 +97,31 @@
     
         <li class="single-post">
             <div class="share">
-  <a href="https://twitter.com/intent/tweet?text= http://chrisburgin.me/programming/2016/01/02/Faded.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2016/01/02/Faded.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/intent/tweet?text= http://chrisburgin.me/programming/2016/01/02/Twitter-Data-Collector.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2016/01/02/Twitter-Data-Collector.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
 </div>
 
             <span class="post-meta date">Jan 2, 2016</span>
             <h1>
-                <a class="post-link" href="/programming/2016/01/02/Faded.html">Python Political Data Collector</a>
+                <a class="post-link" href="/programming/2016/01/02/Twitter-Data-Collector.html">Python Political Data Collector</a>
             </h1>
 
             <div class="post-content">
-                <p>Today I felt like playing around in sketch for an hour or so. Heres the result.</p>
+                <h4 id="view-on-githubhttpsgithubcomchrisburgin95twitter-data-collectorsettings"><a href="https://github.com/chrisburgin95/twitter-data-collector/settings">View on Github</a></h4>
 
-<h3 id="download-them-here-svg-pngf576fa75"><a href="https://drive.google.com/open?id=0B0tp4gudmsGfbzN5SWsyZjVRRU0" title="Download Them HEre">Download Them Here (svg, png)</a></h3>
+<p>With the looming election and politics around every corner I wanted to have some fun collecting some data from my friends. I wanted to figure out whether my friends leaned to the left, or to the right. With one catch, I didn’t want to ask them.</p>
 
-<p><img src="http://i.imgur.com/5egsLhZ.png" alt="Fade Main" /></p>
+<h2 id="how">How</h2>
+<p>The data for this needs to come from somewhere, for this project its twitter. A simple python script looks for twitter usernames inputed into a mysql database. From here the script use the twitter API to fetch their userid and begin pulling in the users tweets, storing them in a database.</p>
 
-<p><img src="http://i.imgur.com/qXn7Tfn.png" alt="Fade Text Page" /></p>
+<p>Users tweets are then parsed into single words, which are stored in a database with a foreign key linking them to the original tweet.</p>
 
+<h2 id="left-or-right">Left or Right</h2>
+<p>After collecting this data, its time to look into the users political stance. Users tweets are compared too the most used words by both republican and democratic presidential candidates.</p>
+
+<p><a href="http://www.forbes.com/sites/kalevleetaru/2015/09/18/second-republican-debate-word-clouds-what-the-candidates-talked-about/">Forbes Presidential Words</a></p>
+
+<p>The results were fairly interesting, I don’t have enough data to draw a conclusion as to whether my program is correct or not. Humans are more complex than their 140 character tweet, so it would be foolish to think I can define even their political views from so little information.</p>
 
             </div>
 
