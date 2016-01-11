@@ -6,8 +6,8 @@
 </description>
     <link>chrisburgin.me/</link>
     <atom:link href="chrisburgin.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jan 2016 15:10:22 -0500</pubDate>
-    <lastBuildDate>Wed, 06 Jan 2016 15:10:22 -0500</lastBuildDate>
+    <pubDate>Mon, 11 Jan 2016 17:46:18 -0500</pubDate>
+    <lastBuildDate>Mon, 11 Jan 2016 17:46:18 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -62,6 +62,34 @@
         <pubDate>Sat, 02 Jan 2016 00:00:00 -0500</pubDate>
         <link>chrisburgin.me/programming/2016/01/02/Twitter-Data-Collector.html</link>
         <guid isPermaLink="true">chrisburgin.me/programming/2016/01/02/Twitter-Data-Collector.html</guid>
+        
+        <category>programming</category>
+        
+        <category>python</category>
+        
+        <category>data</category>
+        
+        <category>sql</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Python Political Data Collector</title>
+        <description>&lt;p&gt;Today I felt like playing around in sketch for an hour or so. Heres the result.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-them-here-svg-pngf576fa75&quot;&gt;&lt;a href=&quot;https://drive.google.com/open?id=0B0tp4gudmsGfbzN5SWsyZjVRRU0&quot; title=&quot;Download Them HEre&quot;&gt;Download Them Here (svg, png)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/5egsLhZ.png&quot; alt=&quot;Fade Main&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/qXn7Tfn.png&quot; alt=&quot;Fade Text Page&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 02 Jan 2016 00:00:00 -0500</pubDate>
+        <link>chrisburgin.me/programming/2016/01/02/Faded.html</link>
+        <guid isPermaLink="true">chrisburgin.me/programming/2016/01/02/Faded.html</guid>
         
         <category>programming</category>
         
