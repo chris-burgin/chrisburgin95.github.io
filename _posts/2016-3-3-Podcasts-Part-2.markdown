@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Podcasts Part 2"
-date:   2016-3-3
+date:   2016-3-2
 categories: Podcasts
 comments: true
 tags: Podcasts Shoptalk CodePen NightVale
