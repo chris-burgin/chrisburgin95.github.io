@@ -105,12 +105,14 @@ header .content .about .job {
   text-transform: uppercase;
   margin-top: 1rem;
   font-weight: 600;
+  margin-left: 0.2rem;
 }
 
 header .content .about .slogan {
   max-width: 20rem;
   margin-top: 1rem;
   font-size: 1.4rem;
+  margin-left: 0.2rem;
 }
 
 header .content .contact {
@@ -157,7 +159,7 @@ header .content .contact ul {
 header .content .contact li {
   border-radius: 0.2rem;
   height: 5rem;
-  width: 33%;
+  flex: 1;
   background-color: var(--grey);
   display: flex;
   align-items: center;
