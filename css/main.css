@@ -170,7 +170,6 @@ header .content .contact li {
 }
 
 header .content .contact li:hover {
-  transform: scale(1.1);
   background-color: var(--off-white);
 }
 
@@ -264,6 +263,26 @@ header .content .contact li i {
 .article a:hover {
   color: var(--off-white);
   text-decoration: none;
+}
+
+.article .goback {
+  margin-top: 3rem;
+}
+
+.article .goback a {
+  background-color: var(--off-black);
+  padding: 2rem;
+  text-decoration: none;
+  color: white;
+  transition: .1s ease-in-out;
+  text-transform: uppercase;
+}
+
+.article .goback a:hover {
+  background-color: var(--off-white);
+  padding: 2rem;
+  text-decoration: none;
+  color: var(--off-black);
 }
 
 
