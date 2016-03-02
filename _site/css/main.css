@@ -76,13 +76,16 @@ header {
   background-color: var(--off-white);
 }
 
-header .profile img {
-  width: 100%;
-  height: auto;
+header .profile {
+  background-image: url('https://secure.gravatar.com/avatar/7cbe33577b339a1bc3d75eb6a9f3a0e5?size=700');
+  background-size: cover;
+  background-position: center;
+  flex: 2;
 }
 
 header .content {
   max-height: 50rem;
+  flex: 3;
 }
 
 header .content .about {
@@ -121,7 +124,7 @@ header .content .contact {
   color: var(--white);
 }
 
-@media all and (max-width: 1050px) {
+@media all and (max-width: 700px) {
   header.row {
     flex-flow: column;
     max-height: none;
