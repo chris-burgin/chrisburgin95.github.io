@@ -237,3 +237,20 @@ header .content .contact li i {
   color: var(--white);
   font-weight: 200;
 }
+
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  background-color: var(--off-black);
+  padding: var(--spacer) 0;
+  color: var(--white);
+}
+
+footer h3 {
+  margin: 0;
+  font-weight: 300;
+}
