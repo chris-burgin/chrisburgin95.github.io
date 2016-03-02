@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chris Burgin</title>
-    <description>Personal site for chris burgin from louisville kentucky. Ministry, Web Development, Lighting Design.
+    <description>Personal site for Chris Burgin from Louisville Kentucky. Ministry, Web Development, Lighting Design.
 </description>
     <link>chrisburgin.me/</link>
     <atom:link href="chrisburgin.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Mar 2016 23:45:54 -0500</pubDate>
-    <lastBuildDate>Tue, 01 Mar 2016 23:45:54 -0500</lastBuildDate>
+    <pubDate>Tue, 01 Mar 2016 23:48:05 -0500</pubDate>
+    <lastBuildDate>Tue, 01 Mar 2016 23:48:05 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
