@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+    <div class="article site-width">
+        <ul class="post-list plain">
+
+            <li class="single-post">
+              {{ content}}
+            </li>
+      
+        </ul>
+        <!-- Pagination links -->
+        {% include pagination.html %}
+    </div>
+
+    <!--<div class="page-content">
+      <div class="wrapper">
+        {{ content1 }}
+      </div>
+    </div>-->
+
+    {% include footer.html %}
+  </body>
+
+</html>

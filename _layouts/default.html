@@ -4,17 +4,33 @@
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <div class="home site-width">
+      <h2 > Blog Posts </h2>
+        <ul class="post-list plain">
+        {% for post in site.posts %}
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <li class="single-post">
+              <h1> {{ post.title }}</h1>
+              <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <section>
+                  {{ post.content | strip_html | truncatewords: 20 }}
+              </section>
+            </li>
+          </a>
+        {% endfor %}
+        </ul>
+        <!-- Pagination links -->
+        {% include pagination.html %}
     </div>
 
-    {% include footer.html %}
+    <!--<div class="page-content">
+      <div class="wrapper">
+        {{ content1 }}
+      </div>
+    </div>-->
 
+    {% include footer.html %}
   </body>
 
 </html>

@@ -1,32 +1,21 @@
-<header class="site-header">
-  <div class="wrapper">
-    <div class="title-logo">
-        <img src="{{ "/static/img/logo.svg" | prepend: site.baseurl }}">
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </div>
-
-    <!-- Main Nav -->
-    <nav class="site-nav">
-        <a class="page-link" href="{{ '/archive' | prepend: site.baseurl }}">Archive</a>
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-        <div class="social-wrapper">
-            <div class="icon twitter"><a class="page-link" target="blank" href="http://twitter.com/{{site.twitter_username}}"><i class="fa fa-twitter"></i><span> Twitter </span></a></div>
-            <div class="icon github"><a class="page-link" target="blank" href="http://github.com/{{site.github_username}}"><i class="fa fa-github"></i><span> Github </span></a></div>
-            <div class="icon flickr"><a class="page-link" target="blank" href="https://www.flickr.com/photos/122919774@N07/"><i class="fa fa-flickr"></i><span> Flickr </span></a></div>
-        </div>
-    </nav>
-
-    <!-- Mobile Menu -->
-    <div id="menu">
-        <a class="page-link" href="{{ '/' | prepend: site.baseurl }}">Home</a>
-        <a class="page-link" href="{{ '/about' | prepend: site.baseurl }}">About</a>
-        <a class="page-link" href="{{ '/archive' | prepend: site.baseurl }}">Archive</a>
-    </div>
-
+<header class="row">
+  <div class="profile column">
+      <div class="img-wrapper"> <img src="https://secure.gravatar.com/avatar/7cbe33577b339a1bc3d75eb6a9f3a0e5?size=700"> </div>
   </div>
-</script>
+  <div class="content column">
+    <div class="about">
+      <h1> Chris Burgin </h1>
+      <span class="job"> Louisville Developer </span>
+      <span class="slogan"> Hi my name is Chris, my passion is for ministry.
+         I believe in taking the skills God has given you and using
+         them to serve the Lord. </span>
+    </div>
+    <div class="contact">
+      <ul class="plain">
+        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+      </ul>
+    </div>
+  </div>
 </header>

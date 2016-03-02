@@ -12,155 +12,146 @@
   <link rel="icon" type="image/ico" href="/favicon.png"/>
 
   <!-- Fonts -->
-  <link href='//cdn.jsdelivr.net/font-hack/2.013/css/hack.min.css' ref='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!-- Style Sheets -->
-  <link rel="stylesheet" href="/static/css/slicknav.css">
   <link rel="stylesheet" href="/static/css/main.min.css">
 
   <!-- Other Links -->
-  <link rel="canonical" href="chrisburgin.me/page8/">
-  <link rel="alternate" type="application/rss+xml" title="Chris Burgin" href="chrisburgin.me/feed.xml" />
-
 </head>
 
 
   <body>
-
-    <header class="site-header">
-  <div class="wrapper">
-    <div class="title-logo">
-        <img src="/static/img/logo.svg">
-        <a class="site-title" href="/">Chris Burgin</a>
-    </div>
-
-    <!-- Main Nav -->
-    <nav class="site-nav">
-        <a class="page-link" href="/archive">Archive</a>
-        
-          
-          <a class="page-link" href="/about/">who?</a>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        <div class="social-wrapper">
-            <div class="icon twitter"><a class="page-link" target="blank" href="http://twitter.com/chrisburgin95"><i class="fa fa-twitter"></i><span> Twitter </span></a></div>
-            <div class="icon github"><a class="page-link" target="blank" href="http://github.com/chrisburgin95"><i class="fa fa-github"></i><span> Github </span></a></div>
-            <div class="icon flickr"><a class="page-link" target="blank" href="https://www.flickr.com/photos/122919774@N07/"><i class="fa fa-flickr"></i><span> Flickr </span></a></div>
-        </div>
-    </nav>
-
-    <!-- Mobile Menu -->
-    <div id="menu">
-        <a class="page-link" href="/">Home</a>
-        <a class="page-link" href="/about">About</a>
-        <a class="page-link" href="/archive">Archive</a>
-    </div>
-
+    <header class="row">
+  <div class="profile column">
+      <div class="img-wrapper"> <img src="https://secure.gravatar.com/avatar/7cbe33577b339a1bc3d75eb6a9f3a0e5?size=700"> </div>
   </div>
-</script>
+  <div class="content column">
+    <div class="about">
+      <h1> Chris Burgin </h1>
+      <span class="job"> Louisville Developer </span>
+      <span class="slogan"> Hi my name is Chris, my passion is for ministry.
+         I believe in taking the skills God has given you and using
+         them to serve the Lord. </span>
+    </div>
+    <div class="contact">
+      <ul class="plain">
+        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+      </ul>
+    </div>
+  </div>
 </header>
 
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-    <ul class="post-list">
-    
-        <li class="single-post">
-            <div class="share">
-  <a href="https://twitter.com/intent/tweet?text= http://chrisburgin.me/programming/2015/08/21/Remote-Garage-Door-Opener.html&via=chrisburgin95&related=chrisburgin95" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-  <a href="https://facebook.com/sharer.php?u=chrisburgin.me/programming/2015/08/21/Remote-Garage-Door-Opener.html" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
-</div>
-
-            <span class="post-meta date">Aug 21, 2015</span>
-            <h1>
-                <a class="post-link" href="/programming/2015/08/21/Remote-Garage-Door-Opener.html">Remote Garage Door Opener</a>
-            </h1>
-
-            <div class="post-content">
-                <p>For the past 2 months I have been having a great time working on my Saturday project. A remote Garage Door Opener that runs on a raspberry pi. Ive gone beyond just a simple php script that lets you open and close your door.</p>
-
-<p>This application, which for the time I am calling Pi Garage (it needs a new name desperatly), has a full user account system with differing level of permissions.</p>
-
-<h4 id="view-on-githubhttpsgithubcomchrisburgin95gatecontrol"><a href="https://github.com/chrisburgin95/Gatecontrol">View on Github</a></h4>
-<p><em>Checkout the readme and wiki on github for more information. There is fairly extensive documentation</em></p>
-
-<h3 id="types-of-accounts">Types Of Accounts</h3>
-<ul>
-  <li>Admin User: This user can add, remove, and edit existing users as well as open and close the garage door.</li>
-  <li>Normal User: This user can only open or close the garage door.</li>
-  <li>Temporary Users: This user expires after a set amount of time and can only open and close the garage door.</li>
-</ul>
-
-<h3 id="let-me-explain">Let Me Explain</h3>
-<p>The main concept behind this application is not to replace the classic garage door opener but to provide more functionality while not cluttering the basic idea. To move a large piece of metal out of the way remotely from anywhere in the world.</p>
-
-<p>This could be useful for families who have more members than garage door openers or when away on vacation. You can now give your house sitter temporary access to your house that will automatically expire.</p>
-
-<p>More detailed examples can be found on my github detailing the functionality of this device, including security. I wont go into to much detail in this post. In following post I will talk about the process as well go into more detail on installation. All of which is still covered on github.</p>
-
-<h3 id="future-expansion">Future Expansion</h3>
-<p>Right now this is just the base application, the Idea is to expand in the near future with some of the following features that should take little time now that the base application is complete.</p>
-
-<ul>
-  <li>Log: Track when the door has been opened and closed as well as when users have been created, removed or modified.</li>
-  <li>Camera: A camera will show the current status of the door, as either open or close. This will allow for the users to access their garage door remotely visually check the status of the door.</li>
-  <li>Magnetic Sensors: Another build in optional feature that can read out if the door is open or closed. This is a cheaper solution to the camera but the user will not be able to check for obstructing objects.</li>
-  <li>More Advanced User Permissions: Set strict times that the door can be used for each user.</li>
-  <li>Notification System: Be notified when the door has been opened or closed by another user from the application.</li>
-</ul>
-
-<h3 id="gallary">Gallary</h3>
-<p><img src="http://i.imgur.com/7wxUytC.png" alt="" />
-<img src="http://i.imgur.com/D7vS2HI.png" alt="" />
-<img src="http://i.imgur.com/rjRuYSy.png" alt="" /></p>
-
-            </div>
-
-            <ul class="post-meta">
-            
-                 <li> pi </li>
-            
-                 <li> garage </li>
-            
-                 <li> python </li>
-            
-            </ul>
-        </li>
-    
-    </ul>
-
-    <!-- Pagination links -->
-    <!-- Pagination links -->
+    <div class="home site-width">
+      <h2 > Blog Posts </h2>
+        <ul class="post-list plain">
+        
+          <a class="post-link" href="/design/2016/01/11/Faded.html">
+            <li class="single-post">
+              <h1> Faded</h1>
+              <span class="date">Jan 11, 2016</span>
+              <section>
+                  Today I felt like playing around in sketch for an hour or so. Heres the result. Download Them Here (svg,...
+              </section>
+            </li>
+          </a>
+        
+          <a class="post-link" href="/programming/2016/01/06/New-Polling-Application.html">
+            <li class="single-post">
+              <h1> Twitter Song Polling Application</h1>
+              <span class="date">Jan 6, 2016</span>
+              <section>
+                  Recently I have started working on a personal project involving twitter polling. This application allows for the input of songs...
+              </section>
+            </li>
+          </a>
+        
+          <a class="post-link" href="/programming/2016/01/02/Twitter-Data-Collector.html">
+            <li class="single-post">
+              <h1> Python Political Data Collector</h1>
+              <span class="date">Jan 2, 2016</span>
+              <section>
+                  View on Github With the looming election and politics around every corner I wanted to have some fun collecting some...
+              </section>
+            </li>
+          </a>
+        
+          <a class="post-link" href="/programming/2015/10/28/BankersRounding.html">
+            <li class="single-post">
+              <h1> Bankers Rounding - Python Library</h1>
+              <span class="date">Oct 28, 2015</span>
+              <section>
+                  View On Github The Problem Normally rounding is bias to round up. This is due to the fact that we...
+              </section>
+            </li>
+          </a>
+        
+          <a class="post-link" href="/podcasts/2015/09/16/Podcasts.html">
+            <li class="single-post">
+              <h1> Podcasts</h1>
+              <span class="date">Sep 16, 2015</span>
+              <section>
+                  Recently I was turned on to podcast by @steveostudios. Here is a list of Podcasts that I have picked in...
+              </section>
+            </li>
+          </a>
+        
+          <a class="post-link" href="/other/2015/09/11/DuckDuckGo.html">
+            <li class="single-post">
+              <h1> Duck Duck Go</h1>
+              <span class="date">Sep 11, 2015</span>
+              <section>
+                  The search engine you have never head of, or maybe you have. About 5 months ago I was convinced to...
+              </section>
+            </li>
+          </a>
+        
+          <a class="post-link" href="/programming/2015/08/27/Gatehouse-Update.html">
+            <li class="single-post">
+              <h1> Gatehouse Update 0.2.0</h1>
+              <span class="date">Aug 27, 2015</span>
+              <section>
+                  Recently working with Kurt Rank we have decided on the name Gatehouse for this project. We think it clearly describes...
+              </section>
+            </li>
+          </a>
+        
+          <a class="post-link" href="/programming/2015/08/21/Remote-Garage-Door-Opener.html">
+            <li class="single-post">
+              <h1> Remote Garage Door Opener</h1>
+              <span class="date">Aug 21, 2015</span>
+              <section>
+                  For the past 2 months I have been having a great time working on my Saturday project. A remote Garage...
+              </section>
+            </li>
+          </a>
+        
+          <a class="post-link" href="/programming/2015/08/20/Compression.html">
+            <li class="single-post">
+              <h1> Compression</h1>
+              <span class="date">Aug 20, 2015</span>
+              <section>
+                  Lately I found myself using several different types of compression on a regular basis. This is a quick documentation of...
+              </section>
+            </li>
+          </a>
+        
+          <a class="post-link" href="/programming/2015/08/19/Sublime-to-Atom.html">
+            <li class="single-post">
+              <h1> Switching from Sublime to Atom</h1>
+              <span class="date">Aug 19, 2015</span>
+              <section>
+                  Earlier this month I was talked into making the switch from my beloved sublime to Atom. Ive gone through a...
+              </section>
+            </li>
+          </a>
+        
+        </ul>
+        <!-- Pagination links -->
+        <!-- Pagination links
 
     <div class="pagination">
         <div>
@@ -176,30 +167,35 @@
     </div>
 
 
+-->
 
-</div>
-
-      </div>
     </div>
 
-    <footer class="site-footer">
+    <!--<div class="page-content">
+      <div class="wrapper">
+        
+      </div>
+    </div>-->
+
+    <!--
+<footer class="site-footer">
     <img src="/static/img/logo.svg">
     <h2>Chris Burgin</h2>
     <h3>chrisburgin95@gmail.com</h3>
 </footer>
 
-<!-- Scripts -->
+
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="/static/js/jquery.slicknav.min.js"></script>
 
-<!-- Mobile Menu -->
+
 <script>
     jQuery( document ).ready(function() {
       $('#menu').slicknav({customClass: 'mini', label: ' '});
     });
 </script>
 
-<!-- Google Analytics -->
+
 <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -209,7 +205,7 @@
       ga('create', 'UA-42902175-1', 'auto');
       ga('send', 'pageview');
 </script>
-
+-->
 
   </body>
 

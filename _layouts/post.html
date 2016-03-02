@@ -1,15 +1,12 @@
 ---
-layout: default
+layout: article
 ---
 <div class="post">
 
-  <header class="post-header">
-    {% include share_post.html %}
-    <p class="post-meta date">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
   <article class="post-content">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <span class="post-meta date">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
+    <hr>
     {{ content }}
   </article>
 </div>
