@@ -11,7 +11,7 @@ gulp.task('css', function() {
     return gulp.src('_site/css/main.css')
     .pipe(myth())
     .pipe(autoprefixer({
-        browsers: ['> 1%', 'Lastest 3 Versions'],
+        browsers: ['> 1%', 'Last 6 Versions'],
     }))
     .pipe(cssnano())
     .pipe(rename({suffix: '.min'}))
