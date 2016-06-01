@@ -11,16 +11,6 @@ Im excited to show off the project I have been working on for the past 3 months 
 
 #### [Visit Parent Newsletter Builder](https://newsletter.dymapps.com)
 
-### Technology
-The DYM newsletter is built with full(almost) stack javascript with expressjs powering the server side. Some other technologies include...
-  - Nodejs
-  - Expressjs
-  - MySql
-  - Jquery
-  - Jade
-  - Stylus
-
-
 ### Screenshots
 Here are just a few screenshots of the application.
 ![](http://i.imgur.com/DfNTnIN.jpg)
